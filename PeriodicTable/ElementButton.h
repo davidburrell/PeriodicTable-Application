@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ElementButton.h
 //  PeriodicTable
 //
 //  Created by david burrell on 1/8/15.
@@ -7,12 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "PeriodicTableWindow.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface ElementButton : NSButton
 {
-    PeriodicTableWindow *thePeriodicTable;
+    NSTrackingArea *trackingArea;
 }
-
 @end
-

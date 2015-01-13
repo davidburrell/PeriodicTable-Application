@@ -7,6 +7,141 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		634A9DC91A5F8788006F41FA /* PeriodicTableWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 634A9DC71A5F8788006F41FA /* PeriodicTableWindow.m */; };
+		634A9DCA1A5F8788006F41FA /* PeriodicTableWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DC81A5F8788006F41FA /* PeriodicTableWindow.xib */; };
+		634A9E4E1A5F8B59006F41FA /* Actinium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DCC1A5F8B59006F41FA /* Actinium.png */; };
+		634A9E4F1A5F8B59006F41FA /* Aluminum.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DCD1A5F8B59006F41FA /* Aluminum.png */; };
+		634A9E501A5F8B59006F41FA /* Americum.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DCE1A5F8B59006F41FA /* Americum.png */; };
+		634A9E511A5F8B59006F41FA /* Antimony.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DCF1A5F8B59006F41FA /* Antimony.png */; };
+		634A9E521A5F8B59006F41FA /* Argon.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DD01A5F8B59006F41FA /* Argon.png */; };
+		634A9E531A5F8B59006F41FA /* Arsenic.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DD11A5F8B59006F41FA /* Arsenic.png */; };
+		634A9E541A5F8B59006F41FA /* Astatine.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DD21A5F8B59006F41FA /* Astatine.png */; };
+		634A9E551A5F8B59006F41FA /* Barium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DD31A5F8B59006F41FA /* Barium.png */; };
+		634A9E561A5F8B59006F41FA /* Berkelium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DD41A5F8B59006F41FA /* Berkelium.png */; };
+		634A9E571A5F8B59006F41FA /* Beryllium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DD51A5F8B59006F41FA /* Beryllium.png */; };
+		634A9E581A5F8B59006F41FA /* Beryllium_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DD61A5F8B59006F41FA /* Beryllium_Button.png */; };
+		634A9E591A5F8B59006F41FA /* Bismuth.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DD71A5F8B59006F41FA /* Bismuth.png */; };
+		634A9E5A1A5F8B59006F41FA /* Borhium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DD81A5F8B59006F41FA /* Borhium.png */; };
+		634A9E5B1A5F8B59006F41FA /* Boron.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DD91A5F8B59006F41FA /* Boron.png */; };
+		634A9E5C1A5F8B59006F41FA /* Bromine.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DDA1A5F8B59006F41FA /* Bromine.png */; };
+		634A9E5D1A5F8B59006F41FA /* Cadmium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DDB1A5F8B59006F41FA /* Cadmium.png */; };
+		634A9E5E1A5F8B59006F41FA /* Calcium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DDC1A5F8B59006F41FA /* Calcium.png */; };
+		634A9E5F1A5F8B59006F41FA /* Californium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DDD1A5F8B59006F41FA /* Californium.png */; };
+		634A9E601A5F8B59006F41FA /* Carbon.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DDE1A5F8B59006F41FA /* Carbon.png */; };
+		634A9E611A5F8B59006F41FA /* Cerium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DDF1A5F8B59006F41FA /* Cerium.png */; };
+		634A9E621A5F8B59006F41FA /* Cesium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DE01A5F8B59006F41FA /* Cesium.png */; };
+		634A9E631A5F8B59006F41FA /* Chlorine.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DE11A5F8B59006F41FA /* Chlorine.png */; };
+		634A9E641A5F8B59006F41FA /* Chromium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DE21A5F8B59006F41FA /* Chromium.png */; };
+		634A9E651A5F8B59006F41FA /* Cobalt.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DE31A5F8B59006F41FA /* Cobalt.png */; };
+		634A9E661A5F8B59006F41FA /* Copernicium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DE41A5F8B59006F41FA /* Copernicium.png */; };
+		634A9E671A5F8B59006F41FA /* Copernicum.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DE51A5F8B59006F41FA /* Copernicum.png */; };
+		634A9E681A5F8B59006F41FA /* Copper.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DE61A5F8B59006F41FA /* Copper.png */; };
+		634A9E691A5F8B59006F41FA /* Curium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DE71A5F8B59006F41FA /* Curium.png */; };
+		634A9E6A1A5F8B59006F41FA /* Darmstadtium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DE81A5F8B59006F41FA /* Darmstadtium.png */; };
+		634A9E6B1A5F8B59006F41FA /* Dubnium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DE91A5F8B59006F41FA /* Dubnium.png */; };
+		634A9E6C1A5F8B59006F41FA /* Dysprosium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DEA1A5F8B59006F41FA /* Dysprosium.png */; };
+		634A9E6D1A5F8B59006F41FA /* Einsteinium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DEB1A5F8B59006F41FA /* Einsteinium.png */; };
+		634A9E6E1A5F8B59006F41FA /* Erbium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DEC1A5F8B59006F41FA /* Erbium.png */; };
+		634A9E6F1A5F8B59006F41FA /* Europium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DED1A5F8B59006F41FA /* Europium.png */; };
+		634A9E701A5F8B59006F41FA /* Fermium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DEE1A5F8B59006F41FA /* Fermium.png */; };
+		634A9E711A5F8B59006F41FA /* Flerovium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DEF1A5F8B59006F41FA /* Flerovium.png */; };
+		634A9E721A5F8B59006F41FA /* Fluorine.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DF01A5F8B59006F41FA /* Fluorine.png */; };
+		634A9E731A5F8B59006F41FA /* Francium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DF11A5F8B59006F41FA /* Francium.png */; };
+		634A9E741A5F8B59006F41FA /* Gadolinium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DF21A5F8B59006F41FA /* Gadolinium.png */; };
+		634A9E751A5F8B59006F41FA /* Gallium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DF31A5F8B59006F41FA /* Gallium.png */; };
+		634A9E761A5F8B59006F41FA /* Gandolinium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DF41A5F8B59006F41FA /* Gandolinium.png */; };
+		634A9E771A5F8B59006F41FA /* Germanium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DF51A5F8B59006F41FA /* Germanium.png */; };
+		634A9E781A5F8B59006F41FA /* Gold.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DF61A5F8B59006F41FA /* Gold.png */; };
+		634A9E791A5F8B59006F41FA /* h_button_large.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DF71A5F8B59006F41FA /* h_button_large.png */; };
+		634A9E7A1A5F8B59006F41FA /* h_button_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DF81A5F8B59006F41FA /* h_button_small.png */; };
+		634A9E7B1A5F8B59006F41FA /* Hafnium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DF91A5F8B59006F41FA /* Hafnium.png */; };
+		634A9E7C1A5F8B59006F41FA /* Hassium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DFA1A5F8B59006F41FA /* Hassium.png */; };
+		634A9E7D1A5F8B59006F41FA /* Helium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DFB1A5F8B59006F41FA /* Helium.png */; };
+		634A9E7E1A5F8B59006F41FA /* Helium_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DFC1A5F8B59006F41FA /* Helium_Button.png */; };
+		634A9E7F1A5F8B59006F41FA /* Holmium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DFD1A5F8B59006F41FA /* Holmium.png */; };
+		634A9E801A5F8B59006F41FA /* Hydrogen.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DFE1A5F8B59006F41FA /* Hydrogen.png */; };
+		634A9E811A5F8B59006F41FA /* Hydrogen_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DFF1A5F8B59006F41FA /* Hydrogen_Button.png */; };
+		634A9E821A5F8B59006F41FA /* Indium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E001A5F8B59006F41FA /* Indium.png */; };
+		634A9E831A5F8B59006F41FA /* Iodine.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E011A5F8B59006F41FA /* Iodine.png */; };
+		634A9E841A5F8B59006F41FA /* Iridium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E021A5F8B59006F41FA /* Iridium.png */; };
+		634A9E851A5F8B59006F41FA /* Iron.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E031A5F8B59006F41FA /* Iron.png */; };
+		634A9E861A5F8B59006F41FA /* isolatedElementsV1.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E041A5F8B59006F41FA /* isolatedElementsV1.png */; };
+		634A9E871A5F8B59006F41FA /* Krypton.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E051A5F8B59006F41FA /* Krypton.png */; };
+		634A9E881A5F8B59006F41FA /* Lanthanum.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E061A5F8B59006F41FA /* Lanthanum.png */; };
+		634A9E891A5F8B59006F41FA /* Lawrencium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E071A5F8B59006F41FA /* Lawrencium.png */; };
+		634A9E8A1A5F8B59006F41FA /* Lead.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E081A5F8B59006F41FA /* Lead.png */; };
+		634A9E8B1A5F8B59006F41FA /* Lithium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E091A5F8B59006F41FA /* Lithium.png */; };
+		634A9E8C1A5F8B59006F41FA /* Lithium_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E0A1A5F8B59006F41FA /* Lithium_Button.png */; };
+		634A9E8D1A5F8B59006F41FA /* Livermorium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E0B1A5F8B59006F41FA /* Livermorium.png */; };
+		634A9E8E1A5F8B59006F41FA /* Lutetium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E0C1A5F8B59006F41FA /* Lutetium.png */; };
+		634A9E8F1A5F8B59006F41FA /* Magnesium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E0D1A5F8B59006F41FA /* Magnesium.png */; };
+		634A9E901A5F8B59006F41FA /* Manganese.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E0E1A5F8B59006F41FA /* Manganese.png */; };
+		634A9E911A5F8B59006F41FA /* Meitnerium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E0F1A5F8B59006F41FA /* Meitnerium.png */; };
+		634A9E921A5F8B59006F41FA /* Mendelevium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E101A5F8B59006F41FA /* Mendelevium.png */; };
+		634A9E931A5F8B59006F41FA /* Mercury.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E111A5F8B59006F41FA /* Mercury.png */; };
+		634A9E941A5F8B59006F41FA /* Molybdenum.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E121A5F8B59006F41FA /* Molybdenum.png */; };
+		634A9E951A5F8B59006F41FA /* Neodymium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E131A5F8B59006F41FA /* Neodymium.png */; };
+		634A9E961A5F8B59006F41FA /* Neon.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E141A5F8B59006F41FA /* Neon.png */; };
+		634A9E971A5F8B59006F41FA /* Neptunium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E151A5F8B59006F41FA /* Neptunium.png */; };
+		634A9E981A5F8B59006F41FA /* Nickel.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E161A5F8B59006F41FA /* Nickel.png */; };
+		634A9E991A5F8B59006F41FA /* Niobium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E171A5F8B59006F41FA /* Niobium.png */; };
+		634A9E9A1A5F8B59006F41FA /* Nitrogen.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E181A5F8B59006F41FA /* Nitrogen.png */; };
+		634A9E9B1A5F8B59006F41FA /* Nobelium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E191A5F8B59006F41FA /* Nobelium.png */; };
+		634A9E9C1A5F8B59006F41FA /* Osmium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E1A1A5F8B59006F41FA /* Osmium.png */; };
+		634A9E9D1A5F8B59006F41FA /* Oxygen.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E1B1A5F8B59006F41FA /* Oxygen.png */; };
+		634A9E9E1A5F8B59006F41FA /* Palladium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E1C1A5F8B59006F41FA /* Palladium.png */; };
+		634A9E9F1A5F8B59006F41FA /* Phosphorus.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E1D1A5F8B59006F41FA /* Phosphorus.png */; };
+		634A9EA01A5F8B59006F41FA /* Platinum.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E1E1A5F8B59006F41FA /* Platinum.png */; };
+		634A9EA11A5F8B59006F41FA /* Plutonium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E1F1A5F8B59006F41FA /* Plutonium.png */; };
+		634A9EA21A5F8B59006F41FA /* Polonium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E201A5F8B59006F41FA /* Polonium.png */; };
+		634A9EA31A5F8B59006F41FA /* Potassium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E211A5F8B59006F41FA /* Potassium.png */; };
+		634A9EA41A5F8B59006F41FA /* Praseodymium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E221A5F8B59006F41FA /* Praseodymium.png */; };
+		634A9EA51A5F8B59006F41FA /* Promethium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E231A5F8B59006F41FA /* Promethium.png */; };
+		634A9EA61A5F8B59006F41FA /* Protactinium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E241A5F8B59006F41FA /* Protactinium.png */; };
+		634A9EA71A5F8B59006F41FA /* Radium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E251A5F8B59006F41FA /* Radium.png */; };
+		634A9EA81A5F8B59006F41FA /* Radon.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E261A5F8B59006F41FA /* Radon.png */; };
+		634A9EA91A5F8B59006F41FA /* Rhenium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E271A5F8B59006F41FA /* Rhenium.png */; };
+		634A9EAA1A5F8B59006F41FA /* Rhodium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E281A5F8B59006F41FA /* Rhodium.png */; };
+		634A9EAB1A5F8B59006F41FA /* Roentgenium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E291A5F8B59006F41FA /* Roentgenium.png */; };
+		634A9EAC1A5F8B59006F41FA /* Rubidium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E2A1A5F8B59006F41FA /* Rubidium.png */; };
+		634A9EAD1A5F8B59006F41FA /* Ruthenium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E2B1A5F8B59006F41FA /* Ruthenium.png */; };
+		634A9EAE1A5F8B59006F41FA /* Rutherfordium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E2C1A5F8B59006F41FA /* Rutherfordium.png */; };
+		634A9EAF1A5F8B59006F41FA /* Samarium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E2D1A5F8B59006F41FA /* Samarium.png */; };
+		634A9EB01A5F8B59006F41FA /* Scandium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E2E1A5F8B59006F41FA /* Scandium.png */; };
+		634A9EB11A5F8B59006F41FA /* Seaborgium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E2F1A5F8B59006F41FA /* Seaborgium.png */; };
+		634A9EB21A5F8B59006F41FA /* Selenium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E301A5F8B59006F41FA /* Selenium.png */; };
+		634A9EB31A5F8B59006F41FA /* Silicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E311A5F8B59006F41FA /* Silicon.png */; };
+		634A9EB41A5F8B59006F41FA /* Silver.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E321A5F8B59006F41FA /* Silver.png */; };
+		634A9EB51A5F8B59006F41FA /* Sodium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E331A5F8B59006F41FA /* Sodium.png */; };
+		634A9EB61A5F8B59006F41FA /* Strontium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E341A5F8B59006F41FA /* Strontium.png */; };
+		634A9EB71A5F8B59006F41FA /* Sulfur.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E351A5F8B59006F41FA /* Sulfur.png */; };
+		634A9EB81A5F8B59006F41FA /* Tantalum.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E361A5F8B59006F41FA /* Tantalum.png */; };
+		634A9EB91A5F8B59006F41FA /* Technetium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E371A5F8B59006F41FA /* Technetium.png */; };
+		634A9EBA1A5F8B59006F41FA /* Tellurium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E381A5F8B59006F41FA /* Tellurium.png */; };
+		634A9EBB1A5F8B59006F41FA /* Terbium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E391A5F8B59006F41FA /* Terbium.png */; };
+		634A9EBC1A5F8B59006F41FA /* Thalium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E3A1A5F8B59006F41FA /* Thalium.png */; };
+		634A9EBD1A5F8B59006F41FA /* Thorium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E3B1A5F8B59006F41FA /* Thorium.png */; };
+		634A9EBE1A5F8B59006F41FA /* Thulium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E3C1A5F8B59006F41FA /* Thulium.png */; };
+		634A9EBF1A5F8B59006F41FA /* Tin.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E3D1A5F8B59006F41FA /* Tin.png */; };
+		634A9EC01A5F8B59006F41FA /* Titanium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E3E1A5F8B59006F41FA /* Titanium.png */; };
+		634A9EC11A5F8B59006F41FA /* Tungsten.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E3F1A5F8B59006F41FA /* Tungsten.png */; };
+		634A9EC21A5F8B59006F41FA /* Ununhexium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E401A5F8B59006F41FA /* Ununhexium.png */; };
+		634A9EC31A5F8B59006F41FA /* Ununoctimum.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E411A5F8B59006F41FA /* Ununoctimum.png */; };
+		634A9EC41A5F8B59006F41FA /* Ununoctium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E421A5F8B59006F41FA /* Ununoctium.png */; };
+		634A9EC51A5F8B59006F41FA /* Ununpentium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E431A5F8B59006F41FA /* Ununpentium.png */; };
+		634A9EC61A5F8B59006F41FA /* Ununseptimum.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E441A5F8B59006F41FA /* Ununseptimum.png */; };
+		634A9EC71A5F8B59006F41FA /* Ununtrium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E451A5F8B59006F41FA /* Ununtrium.png */; };
+		634A9EC81A5F8B59006F41FA /* Unutrium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E461A5F8B59006F41FA /* Unutrium.png */; };
+		634A9EC91A5F8B59006F41FA /* Uranium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E471A5F8B59006F41FA /* Uranium.png */; };
+		634A9ECA1A5F8B59006F41FA /* Vanadium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E481A5F8B59006F41FA /* Vanadium.png */; };
+		634A9ECB1A5F8B59006F41FA /* Xenon.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E491A5F8B59006F41FA /* Xenon.png */; };
+		634A9ECC1A5F8B59006F41FA /* Ytterbium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E4A1A5F8B59006F41FA /* Ytterbium.png */; };
+		634A9ECD1A5F8B59006F41FA /* Yttrium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E4B1A5F8B59006F41FA /* Yttrium.png */; };
+		634A9ECE1A5F8B59006F41FA /* Zinc.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E4C1A5F8B59006F41FA /* Zinc.png */; };
+		634A9ECF1A5F8B59006F41FA /* Zirconium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9E4D1A5F8B59006F41FA /* Zirconium.png */; };
+		634A9ED11A5F8B83006F41FA /* Bohrium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9ED01A5F8B83006F41FA /* Bohrium.png */; };
+		634A9ED31A5F8B96006F41FA /* Americium.png in Resources */ = {isa = PBXBuildFile; fileRef = 634A9ED21A5F8B96006F41FA /* Americium.png */; };
+		634A9ED61A5F8C56006F41FA /* ElementButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 634A9ED51A5F8C56006F41FA /* ElementButton.m */; };
 		639BDB041A5F84CC0043F97C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 639BDB031A5F84CC0043F97C /* AppDelegate.m */; };
 		639BDB061A5F84CC0043F97C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 639BDB051A5F84CC0043F97C /* main.m */; };
 		639BDB081A5F84CC0043F97C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639BDB071A5F84CC0043F97C /* Images.xcassets */; };
@@ -25,6 +160,143 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		634A9DC61A5F8788006F41FA /* PeriodicTableWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeriodicTableWindow.h; sourceTree = "<group>"; };
+		634A9DC71A5F8788006F41FA /* PeriodicTableWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeriodicTableWindow.m; sourceTree = "<group>"; };
+		634A9DC81A5F8788006F41FA /* PeriodicTableWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PeriodicTableWindow.xib; sourceTree = "<group>"; };
+		634A9DCC1A5F8B59006F41FA /* Actinium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Actinium.png; sourceTree = "<group>"; };
+		634A9DCD1A5F8B59006F41FA /* Aluminum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Aluminum.png; sourceTree = "<group>"; };
+		634A9DCE1A5F8B59006F41FA /* Americum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Americum.png; sourceTree = "<group>"; };
+		634A9DCF1A5F8B59006F41FA /* Antimony.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Antimony.png; sourceTree = "<group>"; };
+		634A9DD01A5F8B59006F41FA /* Argon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Argon.png; sourceTree = "<group>"; };
+		634A9DD11A5F8B59006F41FA /* Arsenic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arsenic.png; sourceTree = "<group>"; };
+		634A9DD21A5F8B59006F41FA /* Astatine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Astatine.png; sourceTree = "<group>"; };
+		634A9DD31A5F8B59006F41FA /* Barium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Barium.png; sourceTree = "<group>"; };
+		634A9DD41A5F8B59006F41FA /* Berkelium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Berkelium.png; sourceTree = "<group>"; };
+		634A9DD51A5F8B59006F41FA /* Beryllium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Beryllium.png; sourceTree = "<group>"; };
+		634A9DD61A5F8B59006F41FA /* Beryllium_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Beryllium_Button.png; sourceTree = "<group>"; };
+		634A9DD71A5F8B59006F41FA /* Bismuth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bismuth.png; sourceTree = "<group>"; };
+		634A9DD81A5F8B59006F41FA /* Borhium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Borhium.png; sourceTree = "<group>"; };
+		634A9DD91A5F8B59006F41FA /* Boron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Boron.png; sourceTree = "<group>"; };
+		634A9DDA1A5F8B59006F41FA /* Bromine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bromine.png; sourceTree = "<group>"; };
+		634A9DDB1A5F8B59006F41FA /* Cadmium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cadmium.png; sourceTree = "<group>"; };
+		634A9DDC1A5F8B59006F41FA /* Calcium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calcium.png; sourceTree = "<group>"; };
+		634A9DDD1A5F8B59006F41FA /* Californium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Californium.png; sourceTree = "<group>"; };
+		634A9DDE1A5F8B59006F41FA /* Carbon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Carbon.png; sourceTree = "<group>"; };
+		634A9DDF1A5F8B59006F41FA /* Cerium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cerium.png; sourceTree = "<group>"; };
+		634A9DE01A5F8B59006F41FA /* Cesium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cesium.png; sourceTree = "<group>"; };
+		634A9DE11A5F8B59006F41FA /* Chlorine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chlorine.png; sourceTree = "<group>"; };
+		634A9DE21A5F8B59006F41FA /* Chromium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chromium.png; sourceTree = "<group>"; };
+		634A9DE31A5F8B59006F41FA /* Cobalt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cobalt.png; sourceTree = "<group>"; };
+		634A9DE41A5F8B59006F41FA /* Copernicium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Copernicium.png; sourceTree = "<group>"; };
+		634A9DE51A5F8B59006F41FA /* Copernicum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Copernicum.png; sourceTree = "<group>"; };
+		634A9DE61A5F8B59006F41FA /* Copper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Copper.png; sourceTree = "<group>"; };
+		634A9DE71A5F8B59006F41FA /* Curium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Curium.png; sourceTree = "<group>"; };
+		634A9DE81A5F8B59006F41FA /* Darmstadtium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Darmstadtium.png; sourceTree = "<group>"; };
+		634A9DE91A5F8B59006F41FA /* Dubnium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dubnium.png; sourceTree = "<group>"; };
+		634A9DEA1A5F8B59006F41FA /* Dysprosium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dysprosium.png; sourceTree = "<group>"; };
+		634A9DEB1A5F8B59006F41FA /* Einsteinium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Einsteinium.png; sourceTree = "<group>"; };
+		634A9DEC1A5F8B59006F41FA /* Erbium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Erbium.png; sourceTree = "<group>"; };
+		634A9DED1A5F8B59006F41FA /* Europium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Europium.png; sourceTree = "<group>"; };
+		634A9DEE1A5F8B59006F41FA /* Fermium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fermium.png; sourceTree = "<group>"; };
+		634A9DEF1A5F8B59006F41FA /* Flerovium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flerovium.png; sourceTree = "<group>"; };
+		634A9DF01A5F8B59006F41FA /* Fluorine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fluorine.png; sourceTree = "<group>"; };
+		634A9DF11A5F8B59006F41FA /* Francium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Francium.png; sourceTree = "<group>"; };
+		634A9DF21A5F8B59006F41FA /* Gadolinium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gadolinium.png; sourceTree = "<group>"; };
+		634A9DF31A5F8B59006F41FA /* Gallium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gallium.png; sourceTree = "<group>"; };
+		634A9DF41A5F8B59006F41FA /* Gandolinium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gandolinium.png; sourceTree = "<group>"; };
+		634A9DF51A5F8B59006F41FA /* Germanium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Germanium.png; sourceTree = "<group>"; };
+		634A9DF61A5F8B59006F41FA /* Gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gold.png; sourceTree = "<group>"; };
+		634A9DF71A5F8B59006F41FA /* h_button_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h_button_large.png; sourceTree = "<group>"; };
+		634A9DF81A5F8B59006F41FA /* h_button_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h_button_small.png; sourceTree = "<group>"; };
+		634A9DF91A5F8B59006F41FA /* Hafnium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hafnium.png; sourceTree = "<group>"; };
+		634A9DFA1A5F8B59006F41FA /* Hassium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hassium.png; sourceTree = "<group>"; };
+		634A9DFB1A5F8B59006F41FA /* Helium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Helium.png; sourceTree = "<group>"; };
+		634A9DFC1A5F8B59006F41FA /* Helium_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Helium_Button.png; sourceTree = "<group>"; };
+		634A9DFD1A5F8B59006F41FA /* Holmium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Holmium.png; sourceTree = "<group>"; };
+		634A9DFE1A5F8B59006F41FA /* Hydrogen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hydrogen.png; sourceTree = "<group>"; };
+		634A9DFF1A5F8B59006F41FA /* Hydrogen_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hydrogen_Button.png; sourceTree = "<group>"; };
+		634A9E001A5F8B59006F41FA /* Indium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indium.png; sourceTree = "<group>"; };
+		634A9E011A5F8B59006F41FA /* Iodine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Iodine.png; sourceTree = "<group>"; };
+		634A9E021A5F8B59006F41FA /* Iridium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Iridium.png; sourceTree = "<group>"; };
+		634A9E031A5F8B59006F41FA /* Iron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Iron.png; sourceTree = "<group>"; };
+		634A9E041A5F8B59006F41FA /* isolatedElementsV1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = isolatedElementsV1.png; sourceTree = "<group>"; };
+		634A9E051A5F8B59006F41FA /* Krypton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Krypton.png; sourceTree = "<group>"; };
+		634A9E061A5F8B59006F41FA /* Lanthanum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lanthanum.png; sourceTree = "<group>"; };
+		634A9E071A5F8B59006F41FA /* Lawrencium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lawrencium.png; sourceTree = "<group>"; };
+		634A9E081A5F8B59006F41FA /* Lead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lead.png; sourceTree = "<group>"; };
+		634A9E091A5F8B59006F41FA /* Lithium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lithium.png; sourceTree = "<group>"; };
+		634A9E0A1A5F8B59006F41FA /* Lithium_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lithium_Button.png; sourceTree = "<group>"; };
+		634A9E0B1A5F8B59006F41FA /* Livermorium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Livermorium.png; sourceTree = "<group>"; };
+		634A9E0C1A5F8B59006F41FA /* Lutetium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lutetium.png; sourceTree = "<group>"; };
+		634A9E0D1A5F8B59006F41FA /* Magnesium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Magnesium.png; sourceTree = "<group>"; };
+		634A9E0E1A5F8B59006F41FA /* Manganese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Manganese.png; sourceTree = "<group>"; };
+		634A9E0F1A5F8B59006F41FA /* Meitnerium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Meitnerium.png; sourceTree = "<group>"; };
+		634A9E101A5F8B59006F41FA /* Mendelevium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mendelevium.png; sourceTree = "<group>"; };
+		634A9E111A5F8B59006F41FA /* Mercury.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mercury.png; sourceTree = "<group>"; };
+		634A9E121A5F8B59006F41FA /* Molybdenum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Molybdenum.png; sourceTree = "<group>"; };
+		634A9E131A5F8B59006F41FA /* Neodymium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Neodymium.png; sourceTree = "<group>"; };
+		634A9E141A5F8B59006F41FA /* Neon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Neon.png; sourceTree = "<group>"; };
+		634A9E151A5F8B59006F41FA /* Neptunium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Neptunium.png; sourceTree = "<group>"; };
+		634A9E161A5F8B59006F41FA /* Nickel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nickel.png; sourceTree = "<group>"; };
+		634A9E171A5F8B59006F41FA /* Niobium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Niobium.png; sourceTree = "<group>"; };
+		634A9E181A5F8B59006F41FA /* Nitrogen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nitrogen.png; sourceTree = "<group>"; };
+		634A9E191A5F8B59006F41FA /* Nobelium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nobelium.png; sourceTree = "<group>"; };
+		634A9E1A1A5F8B59006F41FA /* Osmium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Osmium.png; sourceTree = "<group>"; };
+		634A9E1B1A5F8B59006F41FA /* Oxygen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Oxygen.png; sourceTree = "<group>"; };
+		634A9E1C1A5F8B59006F41FA /* Palladium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Palladium.png; sourceTree = "<group>"; };
+		634A9E1D1A5F8B59006F41FA /* Phosphorus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Phosphorus.png; sourceTree = "<group>"; };
+		634A9E1E1A5F8B59006F41FA /* Platinum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Platinum.png; sourceTree = "<group>"; };
+		634A9E1F1A5F8B59006F41FA /* Plutonium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Plutonium.png; sourceTree = "<group>"; };
+		634A9E201A5F8B59006F41FA /* Polonium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Polonium.png; sourceTree = "<group>"; };
+		634A9E211A5F8B59006F41FA /* Potassium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Potassium.png; sourceTree = "<group>"; };
+		634A9E221A5F8B59006F41FA /* Praseodymium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Praseodymium.png; sourceTree = "<group>"; };
+		634A9E231A5F8B59006F41FA /* Promethium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Promethium.png; sourceTree = "<group>"; };
+		634A9E241A5F8B59006F41FA /* Protactinium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Protactinium.png; sourceTree = "<group>"; };
+		634A9E251A5F8B59006F41FA /* Radium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Radium.png; sourceTree = "<group>"; };
+		634A9E261A5F8B59006F41FA /* Radon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Radon.png; sourceTree = "<group>"; };
+		634A9E271A5F8B59006F41FA /* Rhenium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rhenium.png; sourceTree = "<group>"; };
+		634A9E281A5F8B59006F41FA /* Rhodium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rhodium.png; sourceTree = "<group>"; };
+		634A9E291A5F8B59006F41FA /* Roentgenium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Roentgenium.png; sourceTree = "<group>"; };
+		634A9E2A1A5F8B59006F41FA /* Rubidium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rubidium.png; sourceTree = "<group>"; };
+		634A9E2B1A5F8B59006F41FA /* Ruthenium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ruthenium.png; sourceTree = "<group>"; };
+		634A9E2C1A5F8B59006F41FA /* Rutherfordium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rutherfordium.png; sourceTree = "<group>"; };
+		634A9E2D1A5F8B59006F41FA /* Samarium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Samarium.png; sourceTree = "<group>"; };
+		634A9E2E1A5F8B59006F41FA /* Scandium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scandium.png; sourceTree = "<group>"; };
+		634A9E2F1A5F8B59006F41FA /* Seaborgium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Seaborgium.png; sourceTree = "<group>"; };
+		634A9E301A5F8B59006F41FA /* Selenium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Selenium.png; sourceTree = "<group>"; };
+		634A9E311A5F8B59006F41FA /* Silicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Silicon.png; sourceTree = "<group>"; };
+		634A9E321A5F8B59006F41FA /* Silver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Silver.png; sourceTree = "<group>"; };
+		634A9E331A5F8B59006F41FA /* Sodium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sodium.png; sourceTree = "<group>"; };
+		634A9E341A5F8B59006F41FA /* Strontium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Strontium.png; sourceTree = "<group>"; };
+		634A9E351A5F8B59006F41FA /* Sulfur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sulfur.png; sourceTree = "<group>"; };
+		634A9E361A5F8B59006F41FA /* Tantalum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tantalum.png; sourceTree = "<group>"; };
+		634A9E371A5F8B59006F41FA /* Technetium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Technetium.png; sourceTree = "<group>"; };
+		634A9E381A5F8B59006F41FA /* Tellurium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tellurium.png; sourceTree = "<group>"; };
+		634A9E391A5F8B59006F41FA /* Terbium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Terbium.png; sourceTree = "<group>"; };
+		634A9E3A1A5F8B59006F41FA /* Thalium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Thalium.png; sourceTree = "<group>"; };
+		634A9E3B1A5F8B59006F41FA /* Thorium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Thorium.png; sourceTree = "<group>"; };
+		634A9E3C1A5F8B59006F41FA /* Thulium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Thulium.png; sourceTree = "<group>"; };
+		634A9E3D1A5F8B59006F41FA /* Tin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tin.png; sourceTree = "<group>"; };
+		634A9E3E1A5F8B59006F41FA /* Titanium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Titanium.png; sourceTree = "<group>"; };
+		634A9E3F1A5F8B59006F41FA /* Tungsten.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tungsten.png; sourceTree = "<group>"; };
+		634A9E401A5F8B59006F41FA /* Ununhexium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ununhexium.png; sourceTree = "<group>"; };
+		634A9E411A5F8B59006F41FA /* Ununoctimum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ununoctimum.png; sourceTree = "<group>"; };
+		634A9E421A5F8B59006F41FA /* Ununoctium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ununoctium.png; sourceTree = "<group>"; };
+		634A9E431A5F8B59006F41FA /* Ununpentium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ununpentium.png; sourceTree = "<group>"; };
+		634A9E441A5F8B59006F41FA /* Ununseptimum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ununseptimum.png; sourceTree = "<group>"; };
+		634A9E451A5F8B59006F41FA /* Ununtrium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ununtrium.png; sourceTree = "<group>"; };
+		634A9E461A5F8B59006F41FA /* Unutrium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unutrium.png; sourceTree = "<group>"; };
+		634A9E471A5F8B59006F41FA /* Uranium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Uranium.png; sourceTree = "<group>"; };
+		634A9E481A5F8B59006F41FA /* Vanadium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vanadium.png; sourceTree = "<group>"; };
+		634A9E491A5F8B59006F41FA /* Xenon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Xenon.png; sourceTree = "<group>"; };
+		634A9E4A1A5F8B59006F41FA /* Ytterbium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ytterbium.png; sourceTree = "<group>"; };
+		634A9E4B1A5F8B59006F41FA /* Yttrium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yttrium.png; sourceTree = "<group>"; };
+		634A9E4C1A5F8B59006F41FA /* Zinc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zinc.png; sourceTree = "<group>"; };
+		634A9E4D1A5F8B59006F41FA /* Zirconium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zirconium.png; sourceTree = "<group>"; };
+		634A9ED01A5F8B83006F41FA /* Bohrium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bohrium.png; sourceTree = "<group>"; };
+		634A9ED21A5F8B96006F41FA /* Americium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Americium.png; sourceTree = "<group>"; };
+		634A9ED41A5F8C56006F41FA /* ElementButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementButton.h; sourceTree = "<group>"; };
+		634A9ED51A5F8C56006F41FA /* ElementButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementButton.m; sourceTree = "<group>"; };
 		639BDAFD1A5F84CC0043F97C /* PeriodicTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeriodicTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		639BDB011A5F84CC0043F97C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		639BDB021A5F84CC0043F97C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,6 +327,145 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		634A9DCB1A5F8B59006F41FA /* elementButtonImages */ = {
+			isa = PBXGroup;
+			children = (
+				634A9ED01A5F8B83006F41FA /* Bohrium.png */,
+				634A9ED21A5F8B96006F41FA /* Americium.png */,
+				634A9DCC1A5F8B59006F41FA /* Actinium.png */,
+				634A9DCD1A5F8B59006F41FA /* Aluminum.png */,
+				634A9DCE1A5F8B59006F41FA /* Americum.png */,
+				634A9DCF1A5F8B59006F41FA /* Antimony.png */,
+				634A9DD01A5F8B59006F41FA /* Argon.png */,
+				634A9DD11A5F8B59006F41FA /* Arsenic.png */,
+				634A9DD21A5F8B59006F41FA /* Astatine.png */,
+				634A9DD31A5F8B59006F41FA /* Barium.png */,
+				634A9DD41A5F8B59006F41FA /* Berkelium.png */,
+				634A9DD51A5F8B59006F41FA /* Beryllium.png */,
+				634A9DD61A5F8B59006F41FA /* Beryllium_Button.png */,
+				634A9DD71A5F8B59006F41FA /* Bismuth.png */,
+				634A9DD81A5F8B59006F41FA /* Borhium.png */,
+				634A9DD91A5F8B59006F41FA /* Boron.png */,
+				634A9DDA1A5F8B59006F41FA /* Bromine.png */,
+				634A9DDB1A5F8B59006F41FA /* Cadmium.png */,
+				634A9DDC1A5F8B59006F41FA /* Calcium.png */,
+				634A9DDD1A5F8B59006F41FA /* Californium.png */,
+				634A9DDE1A5F8B59006F41FA /* Carbon.png */,
+				634A9DDF1A5F8B59006F41FA /* Cerium.png */,
+				634A9DE01A5F8B59006F41FA /* Cesium.png */,
+				634A9DE11A5F8B59006F41FA /* Chlorine.png */,
+				634A9DE21A5F8B59006F41FA /* Chromium.png */,
+				634A9DE31A5F8B59006F41FA /* Cobalt.png */,
+				634A9DE41A5F8B59006F41FA /* Copernicium.png */,
+				634A9DE51A5F8B59006F41FA /* Copernicum.png */,
+				634A9DE61A5F8B59006F41FA /* Copper.png */,
+				634A9DE71A5F8B59006F41FA /* Curium.png */,
+				634A9DE81A5F8B59006F41FA /* Darmstadtium.png */,
+				634A9DE91A5F8B59006F41FA /* Dubnium.png */,
+				634A9DEA1A5F8B59006F41FA /* Dysprosium.png */,
+				634A9DEB1A5F8B59006F41FA /* Einsteinium.png */,
+				634A9DEC1A5F8B59006F41FA /* Erbium.png */,
+				634A9DED1A5F8B59006F41FA /* Europium.png */,
+				634A9DEE1A5F8B59006F41FA /* Fermium.png */,
+				634A9DEF1A5F8B59006F41FA /* Flerovium.png */,
+				634A9DF01A5F8B59006F41FA /* Fluorine.png */,
+				634A9DF11A5F8B59006F41FA /* Francium.png */,
+				634A9DF21A5F8B59006F41FA /* Gadolinium.png */,
+				634A9DF31A5F8B59006F41FA /* Gallium.png */,
+				634A9DF41A5F8B59006F41FA /* Gandolinium.png */,
+				634A9DF51A5F8B59006F41FA /* Germanium.png */,
+				634A9DF61A5F8B59006F41FA /* Gold.png */,
+				634A9DF71A5F8B59006F41FA /* h_button_large.png */,
+				634A9DF81A5F8B59006F41FA /* h_button_small.png */,
+				634A9DF91A5F8B59006F41FA /* Hafnium.png */,
+				634A9DFA1A5F8B59006F41FA /* Hassium.png */,
+				634A9DFB1A5F8B59006F41FA /* Helium.png */,
+				634A9DFC1A5F8B59006F41FA /* Helium_Button.png */,
+				634A9DFD1A5F8B59006F41FA /* Holmium.png */,
+				634A9DFE1A5F8B59006F41FA /* Hydrogen.png */,
+				634A9DFF1A5F8B59006F41FA /* Hydrogen_Button.png */,
+				634A9E001A5F8B59006F41FA /* Indium.png */,
+				634A9E011A5F8B59006F41FA /* Iodine.png */,
+				634A9E021A5F8B59006F41FA /* Iridium.png */,
+				634A9E031A5F8B59006F41FA /* Iron.png */,
+				634A9E041A5F8B59006F41FA /* isolatedElementsV1.png */,
+				634A9E051A5F8B59006F41FA /* Krypton.png */,
+				634A9E061A5F8B59006F41FA /* Lanthanum.png */,
+				634A9E071A5F8B59006F41FA /* Lawrencium.png */,
+				634A9E081A5F8B59006F41FA /* Lead.png */,
+				634A9E091A5F8B59006F41FA /* Lithium.png */,
+				634A9E0A1A5F8B59006F41FA /* Lithium_Button.png */,
+				634A9E0B1A5F8B59006F41FA /* Livermorium.png */,
+				634A9E0C1A5F8B59006F41FA /* Lutetium.png */,
+				634A9E0D1A5F8B59006F41FA /* Magnesium.png */,
+				634A9E0E1A5F8B59006F41FA /* Manganese.png */,
+				634A9E0F1A5F8B59006F41FA /* Meitnerium.png */,
+				634A9E101A5F8B59006F41FA /* Mendelevium.png */,
+				634A9E111A5F8B59006F41FA /* Mercury.png */,
+				634A9E121A5F8B59006F41FA /* Molybdenum.png */,
+				634A9E131A5F8B59006F41FA /* Neodymium.png */,
+				634A9E141A5F8B59006F41FA /* Neon.png */,
+				634A9E151A5F8B59006F41FA /* Neptunium.png */,
+				634A9E161A5F8B59006F41FA /* Nickel.png */,
+				634A9E171A5F8B59006F41FA /* Niobium.png */,
+				634A9E181A5F8B59006F41FA /* Nitrogen.png */,
+				634A9E191A5F8B59006F41FA /* Nobelium.png */,
+				634A9E1A1A5F8B59006F41FA /* Osmium.png */,
+				634A9E1B1A5F8B59006F41FA /* Oxygen.png */,
+				634A9E1C1A5F8B59006F41FA /* Palladium.png */,
+				634A9E1D1A5F8B59006F41FA /* Phosphorus.png */,
+				634A9E1E1A5F8B59006F41FA /* Platinum.png */,
+				634A9E1F1A5F8B59006F41FA /* Plutonium.png */,
+				634A9E201A5F8B59006F41FA /* Polonium.png */,
+				634A9E211A5F8B59006F41FA /* Potassium.png */,
+				634A9E221A5F8B59006F41FA /* Praseodymium.png */,
+				634A9E231A5F8B59006F41FA /* Promethium.png */,
+				634A9E241A5F8B59006F41FA /* Protactinium.png */,
+				634A9E251A5F8B59006F41FA /* Radium.png */,
+				634A9E261A5F8B59006F41FA /* Radon.png */,
+				634A9E271A5F8B59006F41FA /* Rhenium.png */,
+				634A9E281A5F8B59006F41FA /* Rhodium.png */,
+				634A9E291A5F8B59006F41FA /* Roentgenium.png */,
+				634A9E2A1A5F8B59006F41FA /* Rubidium.png */,
+				634A9E2B1A5F8B59006F41FA /* Ruthenium.png */,
+				634A9E2C1A5F8B59006F41FA /* Rutherfordium.png */,
+				634A9E2D1A5F8B59006F41FA /* Samarium.png */,
+				634A9E2E1A5F8B59006F41FA /* Scandium.png */,
+				634A9E2F1A5F8B59006F41FA /* Seaborgium.png */,
+				634A9E301A5F8B59006F41FA /* Selenium.png */,
+				634A9E311A5F8B59006F41FA /* Silicon.png */,
+				634A9E321A5F8B59006F41FA /* Silver.png */,
+				634A9E331A5F8B59006F41FA /* Sodium.png */,
+				634A9E341A5F8B59006F41FA /* Strontium.png */,
+				634A9E351A5F8B59006F41FA /* Sulfur.png */,
+				634A9E361A5F8B59006F41FA /* Tantalum.png */,
+				634A9E371A5F8B59006F41FA /* Technetium.png */,
+				634A9E381A5F8B59006F41FA /* Tellurium.png */,
+				634A9E391A5F8B59006F41FA /* Terbium.png */,
+				634A9E3A1A5F8B59006F41FA /* Thalium.png */,
+				634A9E3B1A5F8B59006F41FA /* Thorium.png */,
+				634A9E3C1A5F8B59006F41FA /* Thulium.png */,
+				634A9E3D1A5F8B59006F41FA /* Tin.png */,
+				634A9E3E1A5F8B59006F41FA /* Titanium.png */,
+				634A9E3F1A5F8B59006F41FA /* Tungsten.png */,
+				634A9E401A5F8B59006F41FA /* Ununhexium.png */,
+				634A9E411A5F8B59006F41FA /* Ununoctimum.png */,
+				634A9E421A5F8B59006F41FA /* Ununoctium.png */,
+				634A9E431A5F8B59006F41FA /* Ununpentium.png */,
+				634A9E441A5F8B59006F41FA /* Ununseptimum.png */,
+				634A9E451A5F8B59006F41FA /* Ununtrium.png */,
+				634A9E461A5F8B59006F41FA /* Unutrium.png */,
+				634A9E471A5F8B59006F41FA /* Uranium.png */,
+				634A9E481A5F8B59006F41FA /* Vanadium.png */,
+				634A9E491A5F8B59006F41FA /* Xenon.png */,
+				634A9E4A1A5F8B59006F41FA /* Ytterbium.png */,
+				634A9E4B1A5F8B59006F41FA /* Yttrium.png */,
+				634A9E4C1A5F8B59006F41FA /* Zinc.png */,
+				634A9E4D1A5F8B59006F41FA /* Zirconium.png */,
+			);
+			path = elementButtonImages;
+			sourceTree = "<group>";
+		};
 		639BDAF41A5F84CC0043F97C = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +487,12 @@
 		639BDAFF1A5F84CC0043F97C /* PeriodicTable */ = {
 			isa = PBXGroup;
 			children = (
+				634A9DCB1A5F8B59006F41FA /* elementButtonImages */,
+				634A9DC61A5F8788006F41FA /* PeriodicTableWindow.h */,
+				634A9DC71A5F8788006F41FA /* PeriodicTableWindow.m */,
+				634A9ED41A5F8C56006F41FA /* ElementButton.h */,
+				634A9ED51A5F8C56006F41FA /* ElementButton.m */,
+				634A9DC81A5F8788006F41FA /* PeriodicTableWindow.xib */,
 				639BDB021A5F84CC0043F97C /* AppDelegate.h */,
 				639BDB031A5F84CC0043F97C /* AppDelegate.m */,
 				639BDB071A5F84CC0043F97C /* Images.xcassets */,
@@ -191,8 +608,141 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				634A9EBD1A5F8B59006F41FA /* Thorium.png in Resources */,
+				634A9EAB1A5F8B59006F41FA /* Roentgenium.png in Resources */,
+				634A9E7C1A5F8B59006F41FA /* Hassium.png in Resources */,
+				634A9E791A5F8B59006F41FA /* h_button_large.png in Resources */,
+				634A9EA21A5F8B59006F41FA /* Polonium.png in Resources */,
+				634A9EC61A5F8B59006F41FA /* Ununseptimum.png in Resources */,
+				634A9ECB1A5F8B59006F41FA /* Xenon.png in Resources */,
+				634A9E661A5F8B59006F41FA /* Copernicium.png in Resources */,
+				634A9E831A5F8B59006F41FA /* Iodine.png in Resources */,
+				634A9E7E1A5F8B59006F41FA /* Helium_Button.png in Resources */,
+				634A9E6E1A5F8B59006F41FA /* Erbium.png in Resources */,
+				634A9EB41A5F8B59006F41FA /* Silver.png in Resources */,
+				634A9E511A5F8B59006F41FA /* Antimony.png in Resources */,
+				634A9E581A5F8B59006F41FA /* Beryllium_Button.png in Resources */,
+				634A9E601A5F8B59006F41FA /* Carbon.png in Resources */,
+				634A9EB31A5F8B59006F41FA /* Silicon.png in Resources */,
+				634A9ECF1A5F8B59006F41FA /* Zirconium.png in Resources */,
+				634A9EAF1A5F8B59006F41FA /* Samarium.png in Resources */,
+				634A9E761A5F8B59006F41FA /* Gandolinium.png in Resources */,
+				634A9E801A5F8B59006F41FA /* Hydrogen.png in Resources */,
+				634A9E6F1A5F8B59006F41FA /* Europium.png in Resources */,
+				634A9EB61A5F8B59006F41FA /* Strontium.png in Resources */,
+				634A9ECC1A5F8B59006F41FA /* Ytterbium.png in Resources */,
+				634A9E5F1A5F8B59006F41FA /* Californium.png in Resources */,
+				634A9EBA1A5F8B59006F41FA /* Tellurium.png in Resources */,
+				634A9E8F1A5F8B59006F41FA /* Magnesium.png in Resources */,
+				634A9E701A5F8B59006F41FA /* Fermium.png in Resources */,
+				634A9EA31A5F8B59006F41FA /* Potassium.png in Resources */,
+				634A9E531A5F8B59006F41FA /* Arsenic.png in Resources */,
 				639BDB081A5F84CC0043F97C /* Images.xcassets in Resources */,
+				634A9EC71A5F8B59006F41FA /* Ununtrium.png in Resources */,
+				634A9EA71A5F8B59006F41FA /* Radium.png in Resources */,
+				634A9E981A5F8B59006F41FA /* Nickel.png in Resources */,
+				634A9E5A1A5F8B59006F41FA /* Borhium.png in Resources */,
+				634A9E8B1A5F8B59006F41FA /* Lithium.png in Resources */,
+				634A9E721A5F8B59006F41FA /* Fluorine.png in Resources */,
+				634A9EC21A5F8B59006F41FA /* Ununhexium.png in Resources */,
+				634A9E951A5F8B59006F41FA /* Neodymium.png in Resources */,
+				634A9E991A5F8B59006F41FA /* Niobium.png in Resources */,
+				634A9E611A5F8B59006F41FA /* Cerium.png in Resources */,
+				634A9E811A5F8B59006F41FA /* Hydrogen_Button.png in Resources */,
+				634A9E821A5F8B59006F41FA /* Indium.png in Resources */,
+				634A9EAD1A5F8B59006F41FA /* Ruthenium.png in Resources */,
+				634A9E4E1A5F8B59006F41FA /* Actinium.png in Resources */,
+				634A9EB21A5F8B59006F41FA /* Selenium.png in Resources */,
+				634A9EB11A5F8B59006F41FA /* Seaborgium.png in Resources */,
+				634A9E7A1A5F8B59006F41FA /* h_button_small.png in Resources */,
+				634A9E781A5F8B59006F41FA /* Gold.png in Resources */,
+				634A9E6B1A5F8B59006F41FA /* Dubnium.png in Resources */,
+				634A9EC41A5F8B59006F41FA /* Ununoctium.png in Resources */,
+				634A9EB71A5F8B59006F41FA /* Sulfur.png in Resources */,
+				634A9EA51A5F8B59006F41FA /* Promethium.png in Resources */,
+				634A9ECE1A5F8B59006F41FA /* Zinc.png in Resources */,
+				634A9EC91A5F8B59006F41FA /* Uranium.png in Resources */,
+				634A9E8C1A5F8B59006F41FA /* Lithium_Button.png in Resources */,
+				634A9E561A5F8B59006F41FA /* Berkelium.png in Resources */,
+				634A9ECA1A5F8B59006F41FA /* Vanadium.png in Resources */,
+				634A9EC11A5F8B59006F41FA /* Tungsten.png in Resources */,
+				634A9E631A5F8B59006F41FA /* Chlorine.png in Resources */,
+				634A9E5D1A5F8B59006F41FA /* Cadmium.png in Resources */,
+				634A9E5E1A5F8B59006F41FA /* Calcium.png in Resources */,
+				634A9EA61A5F8B59006F41FA /* Protactinium.png in Resources */,
+				634A9E911A5F8B59006F41FA /* Meitnerium.png in Resources */,
+				634A9EC01A5F8B59006F41FA /* Titanium.png in Resources */,
+				634A9ED31A5F8B96006F41FA /* Americium.png in Resources */,
+				634A9E521A5F8B59006F41FA /* Argon.png in Resources */,
+				634A9EB81A5F8B59006F41FA /* Tantalum.png in Resources */,
+				634A9ED11A5F8B83006F41FA /* Bohrium.png in Resources */,
+				634A9E731A5F8B59006F41FA /* Francium.png in Resources */,
+				634A9E841A5F8B59006F41FA /* Iridium.png in Resources */,
+				634A9E501A5F8B59006F41FA /* Americum.png in Resources */,
+				634A9E671A5F8B59006F41FA /* Copernicum.png in Resources */,
+				634A9EB51A5F8B59006F41FA /* Sodium.png in Resources */,
+				634A9EAE1A5F8B59006F41FA /* Rutherfordium.png in Resources */,
+				634A9E861A5F8B59006F41FA /* isolatedElementsV1.png in Resources */,
+				634A9EC51A5F8B59006F41FA /* Ununpentium.png in Resources */,
+				634A9E641A5F8B59006F41FA /* Chromium.png in Resources */,
+				634A9E7D1A5F8B59006F41FA /* Helium.png in Resources */,
+				634A9E6D1A5F8B59006F41FA /* Einsteinium.png in Resources */,
+				634A9E751A5F8B59006F41FA /* Gallium.png in Resources */,
+				634A9E6A1A5F8B59006F41FA /* Darmstadtium.png in Resources */,
+				634A9EBF1A5F8B59006F41FA /* Tin.png in Resources */,
+				634A9EBE1A5F8B59006F41FA /* Thulium.png in Resources */,
+				634A9EA01A5F8B59006F41FA /* Platinum.png in Resources */,
+				634A9E901A5F8B59006F41FA /* Manganese.png in Resources */,
+				634A9EBB1A5F8B59006F41FA /* Terbium.png in Resources */,
+				634A9EAA1A5F8B59006F41FA /* Rhodium.png in Resources */,
+				634A9EA81A5F8B59006F41FA /* Radon.png in Resources */,
+				634A9E681A5F8B59006F41FA /* Copper.png in Resources */,
+				634A9E541A5F8B59006F41FA /* Astatine.png in Resources */,
+				634A9E8E1A5F8B59006F41FA /* Lutetium.png in Resources */,
+				634A9E881A5F8B59006F41FA /* Lanthanum.png in Resources */,
+				634A9E571A5F8B59006F41FA /* Beryllium.png in Resources */,
+				634A9EA11A5F8B59006F41FA /* Plutonium.png in Resources */,
+				634A9E9A1A5F8B59006F41FA /* Nitrogen.png in Resources */,
+				634A9E711A5F8B59006F41FA /* Flerovium.png in Resources */,
+				634A9E741A5F8B59006F41FA /* Gadolinium.png in Resources */,
+				634A9EA41A5F8B59006F41FA /* Praseodymium.png in Resources */,
+				634A9EBC1A5F8B59006F41FA /* Thalium.png in Resources */,
+				634A9E651A5F8B59006F41FA /* Cobalt.png in Resources */,
+				634A9E5B1A5F8B59006F41FA /* Boron.png in Resources */,
+				634A9E8D1A5F8B59006F41FA /* Livermorium.png in Resources */,
+				634A9E691A5F8B59006F41FA /* Curium.png in Resources */,
+				634A9E8A1A5F8B59006F41FA /* Lead.png in Resources */,
+				634A9EB01A5F8B59006F41FA /* Scandium.png in Resources */,
+				634A9E9B1A5F8B59006F41FA /* Nobelium.png in Resources */,
+				634A9E4F1A5F8B59006F41FA /* Aluminum.png in Resources */,
+				634A9DCA1A5F8788006F41FA /* PeriodicTableWindow.xib in Resources */,
+				634A9EC81A5F8B59006F41FA /* Unutrium.png in Resources */,
+				634A9E891A5F8B59006F41FA /* Lawrencium.png in Resources */,
+				634A9EB91A5F8B59006F41FA /* Technetium.png in Resources */,
+				634A9E7B1A5F8B59006F41FA /* Hafnium.png in Resources */,
+				634A9E941A5F8B59006F41FA /* Molybdenum.png in Resources */,
+				634A9E9D1A5F8B59006F41FA /* Oxygen.png in Resources */,
+				634A9E7F1A5F8B59006F41FA /* Holmium.png in Resources */,
+				634A9E871A5F8B59006F41FA /* Krypton.png in Resources */,
+				634A9E9C1A5F8B59006F41FA /* Osmium.png in Resources */,
+				634A9E6C1A5F8B59006F41FA /* Dysprosium.png in Resources */,
+				634A9EC31A5F8B59006F41FA /* Ununoctimum.png in Resources */,
+				634A9E931A5F8B59006F41FA /* Mercury.png in Resources */,
+				634A9E9E1A5F8B59006F41FA /* Palladium.png in Resources */,
+				634A9E961A5F8B59006F41FA /* Neon.png in Resources */,
+				634A9E621A5F8B59006F41FA /* Cesium.png in Resources */,
+				634A9E851A5F8B59006F41FA /* Iron.png in Resources */,
+				634A9E771A5F8B59006F41FA /* Germanium.png in Resources */,
+				634A9E9F1A5F8B59006F41FA /* Phosphorus.png in Resources */,
+				634A9E5C1A5F8B59006F41FA /* Bromine.png in Resources */,
+				634A9E971A5F8B59006F41FA /* Neptunium.png in Resources */,
+				634A9EAC1A5F8B59006F41FA /* Rubidium.png in Resources */,
 				639BDB0B1A5F84CC0043F97C /* MainMenu.xib in Resources */,
+				634A9ECD1A5F8B59006F41FA /* Yttrium.png in Resources */,
+				634A9E921A5F8B59006F41FA /* Mendelevium.png in Resources */,
+				634A9E591A5F8B59006F41FA /* Bismuth.png in Resources */,
+				634A9EA91A5F8B59006F41FA /* Rhenium.png in Resources */,
+				634A9E551A5F8B59006F41FA /* Barium.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +760,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				634A9ED61A5F8C56006F41FA /* ElementButton.m in Sources */,
+				634A9DC91A5F8788006F41FA /* PeriodicTableWindow.m in Sources */,
 				639BDB061A5F84CC0043F97C /* main.m in Sources */,
 				639BDB041A5F84CC0043F97C /* AppDelegate.m in Sources */,
 			);
@@ -398,6 +950,7 @@
 				639BDB1C1A5F84CC0043F97C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		639BDB1D1A5F84CC0043F97C /* Build configuration list for PBXNativeTarget "PeriodicTableTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +959,7 @@
 				639BDB1F1A5F84CC0043F97C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  PeriodicTableWindow.h
 //  PeriodicTable
 //
 //  Created by david burrell on 1/8/15.
@@ -7,12 +7,8 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "PeriodicTableWindow.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
-{
-    PeriodicTableWindow *thePeriodicTable;
-}
+@interface PeriodicTableWindow : NSWindowController
+- (IBAction)onElementSelection:(id)sender;
 
 @end
-

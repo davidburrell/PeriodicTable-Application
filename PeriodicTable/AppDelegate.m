@@ -10,13 +10,19 @@
 
 @interface AppDelegate ()
 
-@property (weak) IBOutlet NSWindow *window;
+
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    
+    if (thePeriodicTable == NULL) {
+        thePeriodicTable = [[PeriodicTableWindow alloc] initWithWindowNibName:@"PeriodicTableWindow"];
+        [thePeriodicTable showWindow:self];
+    }
+    
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {

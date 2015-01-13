@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6254"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="PeriodicTableWindow">
+            <connections>
+                <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Periodic Table" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hasShadow="NO" oneShot="NO" releasedWhenClosed="NO" animationBehavior="default" id="F0z-JX-Cv5">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" texturedBackground="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="1521" height="1109"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
+            <view key="contentView" id="se5-gp-TjO">
+                <rect key="frame" x="0.0" y="0.0" width="1521" height="1109"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <button focusRingType="none" fixedFrame="YES" tag="3" translatesAutoresizingMaskIntoConstraints="NO" id="Fo4-gy-78A" customClass="ElementButton">
+                        <rect key="frame" x="44" y="889" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Lithium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="qet-yK-i5d">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="1" translatesAutoresizingMaskIntoConstraints="NO" id="1ub-Ma-h3c" customClass="ElementButton">
+                        <rect key="frame" x="44" y="989" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Hydrogen" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="tyr-dA-LhW" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="onElementSelection:" target="-2" id="tQY-BX-wg4"/>
+                        </connections>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="19" translatesAutoresizingMaskIntoConstraints="NO" id="hD3-OU-GcS" customClass="ElementButton">
+                        <rect key="frame" x="44" y="690" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Potassium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="bSk-02-dIS">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="11" translatesAutoresizingMaskIntoConstraints="NO" id="qHz-QD-sxW" customClass="ElementButton">
+                        <rect key="frame" x="44" y="790" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Sodium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="3PA-tE-yyi" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="55" translatesAutoresizingMaskIntoConstraints="NO" id="I82-9J-1GQ" customClass="ElementButton">
+                        <rect key="frame" x="44" y="491" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Cesium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="vgq-Lh-LjS">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="37" translatesAutoresizingMaskIntoConstraints="NO" id="aLE-3a-FGO" customClass="ElementButton">
+                        <rect key="frame" x="44" y="591" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Rubidium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="TMa-yr-yVd" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="87" translatesAutoresizingMaskIntoConstraints="NO" id="bsW-g4-gDs" customClass="ElementButton">
+                        <rect key="frame" x="44" y="391" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Francium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="g3H-02-hgN">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="20" translatesAutoresizingMaskIntoConstraints="NO" id="rcU-FI-Q9M" customClass="ElementButton">
+                        <rect key="frame" x="119" y="690" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Calcium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="2Yy-7M-iH9">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="56" translatesAutoresizingMaskIntoConstraints="NO" id="rlR-IJ-EKf" customClass="ElementButton">
+                        <rect key="frame" x="119" y="491" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Barium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="Mot-VL-y2L">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="38" translatesAutoresizingMaskIntoConstraints="NO" id="CL9-iv-xE1" customClass="ElementButton">
+                        <rect key="frame" x="119" y="591" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Strontium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="0kW-bx-B3S" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="88" translatesAutoresizingMaskIntoConstraints="NO" id="48F-aY-aHp" customClass="ElementButton">
+                        <rect key="frame" x="119" y="391" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Radium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="OPs-gd-gjU">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="21" translatesAutoresizingMaskIntoConstraints="NO" id="5lu-ki-2Uf" customClass="ElementButton">
+                        <rect key="frame" x="195" y="690" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Scandium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="gMh-Mc-cns">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="57" translatesAutoresizingMaskIntoConstraints="NO" id="Ygj-1X-ahH" customClass="ElementButton">
+                        <rect key="frame" x="195" y="491" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Lanthanum" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="hr6-on-iYZ">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="39" translatesAutoresizingMaskIntoConstraints="NO" id="7z4-P5-TBU" customClass="ElementButton">
+                        <rect key="frame" x="195" y="591" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Yttrium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="KBp-Vx-d9D" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="89" translatesAutoresizingMaskIntoConstraints="NO" id="vtC-eU-0CR" customClass="ElementButton">
+                        <rect key="frame" x="195" y="391" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Actinium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="HZl-FV-7ru">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="22" translatesAutoresizingMaskIntoConstraints="NO" id="SzD-Fx-0kp" customClass="ElementButton">
+                        <rect key="frame" x="270" y="690" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Titanium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="YYq-k9-AM1">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="72" translatesAutoresizingMaskIntoConstraints="NO" id="J5L-ZF-a7F" customClass="ElementButton">
+                        <rect key="frame" x="270" y="491" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Hafnium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="P8y-GI-UUm">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="40" translatesAutoresizingMaskIntoConstraints="NO" id="wtc-RT-Jhv" customClass="ElementButton">
+                        <rect key="frame" x="270" y="591" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Zirconium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="9gI-Lh-Dfz" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="104" translatesAutoresizingMaskIntoConstraints="NO" id="hVc-ah-yYJ" customClass="ElementButton">
+                        <rect key="frame" x="270" y="391" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Rutherfordium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="1zq-3u-ZL7">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="23" translatesAutoresizingMaskIntoConstraints="NO" id="4yD-sk-sN5" customClass="ElementButton">
+                        <rect key="frame" x="345" y="690" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Vanadium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="3sM-QS-4Ke">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="73" translatesAutoresizingMaskIntoConstraints="NO" id="QGf-WM-e5f" customClass="ElementButton">
+                        <rect key="frame" x="345" y="491" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Tantalum" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="6JE-8f-nmN">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="41" translatesAutoresizingMaskIntoConstraints="NO" id="U2P-TN-w15" customClass="ElementButton">
+                        <rect key="frame" x="345" y="591" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Niobium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="e65-3e-yat" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="105" translatesAutoresizingMaskIntoConstraints="NO" id="2Rz-tq-Q4L" customClass="ElementButton">
+                        <rect key="frame" x="345" y="391" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Dubnium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="hts-xX-9V5">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="24" translatesAutoresizingMaskIntoConstraints="NO" id="aUP-4D-1Rl" customClass="ElementButton">
+                        <rect key="frame" x="417" y="690" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Chromium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="8gA-Xu-pyg">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="74" translatesAutoresizingMaskIntoConstraints="NO" id="tbp-xX-zxb" customClass="ElementButton">
+                        <rect key="frame" x="417" y="491" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Tungsten" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="W1M-5S-7AW">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="42" translatesAutoresizingMaskIntoConstraints="NO" id="dkw-pU-kie" customClass="ElementButton">
+                        <rect key="frame" x="417" y="591" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Molybdenum" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="vj3-ir-cMf" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="106" translatesAutoresizingMaskIntoConstraints="NO" id="Jfq-AM-NiN" customClass="ElementButton">
+                        <rect key="frame" x="417" y="391" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Seaborgium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="xt7-WR-t3h">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="25" translatesAutoresizingMaskIntoConstraints="NO" id="0W8-jF-ENC" customClass="ElementButton">
+                        <rect key="frame" x="492" y="690" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Manganese" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="Tns-vX-ibh">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="75" translatesAutoresizingMaskIntoConstraints="NO" id="qjV-S2-qis" customClass="ElementButton">
+                        <rect key="frame" x="492" y="491" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Rhenium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="7Nk-az-4jH">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="43" translatesAutoresizingMaskIntoConstraints="NO" id="WLo-Z5-qdh" customClass="ElementButton">
+                        <rect key="frame" x="492" y="591" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Technetium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="Iq5-N9-Am3" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="107" translatesAutoresizingMaskIntoConstraints="NO" id="wHR-nx-jB1" customClass="ElementButton">
+                        <rect key="frame" x="492" y="391" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Bohrium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="oOI-Of-Hys">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="26" translatesAutoresizingMaskIntoConstraints="NO" id="s5M-Ck-UFU" customClass="ElementButton">
+                        <rect key="frame" x="567" y="690" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Iron" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="h5C-q8-0ZR">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="76" translatesAutoresizingMaskIntoConstraints="NO" id="kSg-kI-voz" customClass="ElementButton">
+                        <rect key="frame" x="567" y="491" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Osmium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="F94-T6-ODg">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="44" translatesAutoresizingMaskIntoConstraints="NO" id="Wjy-gV-Tpn" customClass="ElementButton">
+                        <rect key="frame" x="567" y="591" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Ruthenium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="uJA-0g-h3a" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="108" translatesAutoresizingMaskIntoConstraints="NO" id="cgq-tK-ZAw" customClass="ElementButton">
+                        <rect key="frame" x="567" y="391" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Hassium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="cXU-Nh-685">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="45" translatesAutoresizingMaskIntoConstraints="NO" id="5z3-Mp-AJc" customClass="ElementButton">
+                        <rect key="frame" x="639" y="591" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Rhodium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="ucL-Cn-Gx6" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="27" translatesAutoresizingMaskIntoConstraints="NO" id="X6C-7i-7Um" customClass="ElementButton">
+                        <rect key="frame" x="639" y="690" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Cobalt" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="b3g-1H-LL8">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="77" translatesAutoresizingMaskIntoConstraints="NO" id="d5L-d6-lIy" customClass="ElementButton">
+                        <rect key="frame" x="639" y="491" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Iridium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="pmI-yY-O8W">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="109" translatesAutoresizingMaskIntoConstraints="NO" id="KAe-HK-WKz" customClass="ElementButton">
+                        <rect key="frame" x="639" y="391" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Meitnerium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="rbK-MF-irb">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="28" translatesAutoresizingMaskIntoConstraints="NO" id="dfH-R9-Jgr" customClass="ElementButton">
+                        <rect key="frame" x="714" y="690" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Nickel" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="dkO-m8-gmh">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="78" translatesAutoresizingMaskIntoConstraints="NO" id="ebg-02-lbb" customClass="ElementButton">
+                        <rect key="frame" x="714" y="491" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Platinum" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="oqY-ej-YB6">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="46" translatesAutoresizingMaskIntoConstraints="NO" id="8fx-fd-eDr" customClass="ElementButton">
+                        <rect key="frame" x="714" y="591" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Palladium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="N7b-2y-uc8" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="110" translatesAutoresizingMaskIntoConstraints="NO" id="7gJ-0S-4qy" customClass="ElementButton">
+                        <rect key="frame" x="714" y="391" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Darmstadtium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="weJ-jl-00t">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="3" translatesAutoresizingMaskIntoConstraints="NO" id="anL-BP-Rb9" customClass="ElementButton">
+                        <rect key="frame" x="789" y="690" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Copper" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="qdr-IE-1hi">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="79" translatesAutoresizingMaskIntoConstraints="NO" id="Hli-9O-W0u" customClass="ElementButton">
+                        <rect key="frame" x="789" y="491" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Gold" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="sNx-CB-7xH">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="47" translatesAutoresizingMaskIntoConstraints="NO" id="aHR-9Y-rpJ" customClass="ElementButton">
+                        <rect key="frame" x="789" y="591" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Silver" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="x9W-1G-87U" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="111" translatesAutoresizingMaskIntoConstraints="NO" id="ABS-kg-hDB" customClass="ElementButton">
+                        <rect key="frame" x="789" y="391" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Roentgenium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="oqO-10-X3i">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="30" translatesAutoresizingMaskIntoConstraints="NO" id="iX7-78-MCU" customClass="ElementButton">
+                        <rect key="frame" x="861" y="690" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Zinc" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="VbE-wR-YVr">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="80" translatesAutoresizingMaskIntoConstraints="NO" id="dAr-5v-CK8" customClass="ElementButton">
+                        <rect key="frame" x="861" y="491" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Mercury" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="Ybb-hI-xcM">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="48" translatesAutoresizingMaskIntoConstraints="NO" id="9A0-pP-lzz" customClass="ElementButton">
+                        <rect key="frame" x="861" y="591" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Cadmium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="9WF-im-YlV" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="112" translatesAutoresizingMaskIntoConstraints="NO" id="t5z-XX-iQs" customClass="ElementButton">
+                        <rect key="frame" x="861" y="391" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Copernicium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="OGw-YK-0cT">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="31" translatesAutoresizingMaskIntoConstraints="NO" id="2Al-0c-nK2" customClass="ElementButton">
+                        <rect key="frame" x="936" y="690" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Gallium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="Nc5-uh-pDB">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="13" translatesAutoresizingMaskIntoConstraints="NO" id="PaO-2b-bn0" customClass="ElementButton">
+                        <rect key="frame" x="936" y="790" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Aluminum" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="z8B-OK-VbF" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="81" translatesAutoresizingMaskIntoConstraints="NO" id="j7Q-Wk-qde" customClass="ElementButton">
+                        <rect key="frame" x="936" y="491" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Thalium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="Gij-4v-ZfW">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="49" translatesAutoresizingMaskIntoConstraints="NO" id="aiw-bh-t8o" customClass="ElementButton">
+                        <rect key="frame" x="936" y="591" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Indium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="Bki-I8-ybw" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="113" translatesAutoresizingMaskIntoConstraints="NO" id="YlH-fD-3oD" customClass="ElementButton">
+                        <rect key="frame" x="936" y="391" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Ununtrium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="7Xr-Rg-iqO">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="32" translatesAutoresizingMaskIntoConstraints="NO" id="uxd-gn-Rv8" customClass="ElementButton">
+                        <rect key="frame" x="1011" y="690" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Germanium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="24q-77-EKF">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="14" translatesAutoresizingMaskIntoConstraints="NO" id="rVk-mU-0Tp" customClass="ElementButton">
+                        <rect key="frame" x="1011" y="790" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Silicon" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="imM-n5-gZP" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="82" translatesAutoresizingMaskIntoConstraints="NO" id="691-fe-PWB" customClass="ElementButton">
+                        <rect key="frame" x="1011" y="491" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Lead" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="C5l-2x-ctk">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="50" translatesAutoresizingMaskIntoConstraints="NO" id="hWb-9c-lzg" customClass="ElementButton">
+                        <rect key="frame" x="1011" y="591" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Tin" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="eR4-Vh-0tA" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="114" translatesAutoresizingMaskIntoConstraints="NO" id="EfM-Gt-SNl" customClass="ElementButton">
+                        <rect key="frame" x="1011" y="391" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Flerovium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="efs-tN-klR">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="33" translatesAutoresizingMaskIntoConstraints="NO" id="Dks-Ff-dkz" customClass="ElementButton">
+                        <rect key="frame" x="1083" y="690" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Arsenic" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="OKl-ML-WS4">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="15" translatesAutoresizingMaskIntoConstraints="NO" id="jEI-3i-TWf" customClass="ElementButton">
+                        <rect key="frame" x="1083" y="790" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Phosphorus" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="had-e5-Rby" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="83" translatesAutoresizingMaskIntoConstraints="NO" id="2Td-Og-T3T" customClass="ElementButton">
+                        <rect key="frame" x="1083" y="491" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Bismuth" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="fwV-Gq-a1C">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="51" translatesAutoresizingMaskIntoConstraints="NO" id="Sda-B6-hp3" customClass="ElementButton">
+                        <rect key="frame" x="1083" y="591" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Antimony" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="ZQ2-28-NGV" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="115" translatesAutoresizingMaskIntoConstraints="NO" id="8oe-0Q-hDh" customClass="ElementButton">
+                        <rect key="frame" x="1083" y="391" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Ununpentium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="CGH-NZ-jti">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="3" translatesAutoresizingMaskIntoConstraints="NO" id="wgn-6C-kfz" customClass="ElementButton">
+                        <rect key="frame" x="1158" y="690" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Selenium" imagePosition="overlaps" alignment="center" focusRingType="none" tag="34" imageScaling="proportionallyDown" inset="2" id="4lq-H6-0an">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="16" translatesAutoresizingMaskIntoConstraints="NO" id="cme-La-sed" customClass="ElementButton">
+                        <rect key="frame" x="1158" y="790" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Sulfur" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="PJp-G3-v6J" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="84" translatesAutoresizingMaskIntoConstraints="NO" id="O97-oF-Dvs" customClass="ElementButton">
+                        <rect key="frame" x="1158" y="491" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Polonium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="WMi-pV-pm8">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="52" translatesAutoresizingMaskIntoConstraints="NO" id="xmC-Lz-6eo" customClass="ElementButton">
+                        <rect key="frame" x="1158" y="591" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Tellurium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="OUY-mM-dUh" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="116" translatesAutoresizingMaskIntoConstraints="NO" id="pvi-Z5-PW0" customClass="ElementButton">
+                        <rect key="frame" x="1158" y="391" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Livermorium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="j6g-De-T1S">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="35" translatesAutoresizingMaskIntoConstraints="NO" id="jEX-ah-Lwk" customClass="ElementButton">
+                        <rect key="frame" x="1233" y="690" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Bromine" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="1dt-WQ-MMG">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="17" translatesAutoresizingMaskIntoConstraints="NO" id="qrf-M3-aAT" customClass="ElementButton">
+                        <rect key="frame" x="1233" y="790" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Chlorine" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="Mn9-8K-uH6" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="85" translatesAutoresizingMaskIntoConstraints="NO" id="EAG-ci-nuS" customClass="ElementButton">
+                        <rect key="frame" x="1233" y="491" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Astatine" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="MEs-8x-fmh">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="53" translatesAutoresizingMaskIntoConstraints="NO" id="CA9-M2-Nka" customClass="ElementButton">
+                        <rect key="frame" x="1233" y="591" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Iodine" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="MUV-OE-3fb" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="117" translatesAutoresizingMaskIntoConstraints="NO" id="2eh-6z-5Bd" customClass="ElementButton">
+                        <rect key="frame" x="1233" y="391" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Ununseptimum" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="FbN-V4-eAn">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="36" translatesAutoresizingMaskIntoConstraints="NO" id="Hpr-eo-qx5" customClass="ElementButton">
+                        <rect key="frame" x="1305" y="690" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Krypton" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="WfM-38-4Zr">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="18" translatesAutoresizingMaskIntoConstraints="NO" id="JMK-Pa-1vj" customClass="ElementButton">
+                        <rect key="frame" x="1305" y="790" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Argon" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="ngL-Nb-tOO" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="86" translatesAutoresizingMaskIntoConstraints="NO" id="3Au-rs-eeG" customClass="ElementButton">
+                        <rect key="frame" x="1305" y="491" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Radon" imagePosition="overlaps" alignment="center" focusRingType="none" tag="86" imageScaling="proportionallyDown" inset="2" id="l68-rg-vjq">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="54" translatesAutoresizingMaskIntoConstraints="NO" id="17t-Tc-pfh" customClass="ElementButton">
+                        <rect key="frame" x="1305" y="591" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Xenon" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="sag-cn-DKM" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="118" translatesAutoresizingMaskIntoConstraints="NO" id="Mci-7k-2I7" customClass="ElementButton">
+                        <rect key="frame" x="1305" y="391" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Ununoctium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="dh2-cx-4VO">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="5" translatesAutoresizingMaskIntoConstraints="NO" id="8ST-aC-2AU" customClass="ElementButton">
+                        <rect key="frame" x="936" y="889" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Boron" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="XJL-Xc-8vu">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="6" translatesAutoresizingMaskIntoConstraints="NO" id="iXF-Gp-aJD" customClass="ElementButton">
+                        <rect key="frame" x="1011" y="889" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Carbon" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="GKJ-ls-ZOP">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="7" translatesAutoresizingMaskIntoConstraints="NO" id="heB-8V-Tit" customClass="ElementButton">
+                        <rect key="frame" x="1083" y="889" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Nitrogen" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="8TE-n0-AvJ">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="8" translatesAutoresizingMaskIntoConstraints="NO" id="jA4-ch-727" customClass="ElementButton">
+                        <rect key="frame" x="1158" y="889" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Oxygen" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="1Qz-Ap-pHr">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="9" translatesAutoresizingMaskIntoConstraints="NO" id="TlR-Ie-K3D" customClass="ElementButton">
+                        <rect key="frame" x="1233" y="889" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Fluorine" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="YGq-Tn-Cos">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="10" translatesAutoresizingMaskIntoConstraints="NO" id="peC-nG-ra0" customClass="ElementButton">
+                        <rect key="frame" x="1305" y="889" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Neon" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="WkD-xh-gVH">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="2" translatesAutoresizingMaskIntoConstraints="NO" id="Pa3-cW-BJO" customClass="ElementButton">
+                        <rect key="frame" x="1305" y="989" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Helium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="OPO-LB-pZa" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="58" translatesAutoresizingMaskIntoConstraints="NO" id="rfE-N0-e5f" customClass="ElementButton">
+                        <rect key="frame" x="264" y="238" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Cerium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="QUT-SJ-T0s">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="90" translatesAutoresizingMaskIntoConstraints="NO" id="8ul-BV-LAo" customClass="ElementButton">
+                        <rect key="frame" x="264" y="139" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Thorium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="W75-SF-XfO">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="59" translatesAutoresizingMaskIntoConstraints="NO" id="79Z-QB-1fw" customClass="ElementButton">
+                        <rect key="frame" x="339" y="238" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Praseodymium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="YUK-lC-8KQ">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="91" translatesAutoresizingMaskIntoConstraints="NO" id="fHL-vD-9xo" customClass="ElementButton">
+                        <rect key="frame" x="339" y="139" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Protactinium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="6dj-jn-8A9">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="60" translatesAutoresizingMaskIntoConstraints="NO" id="GpS-G4-A63" customClass="ElementButton">
+                        <rect key="frame" x="411" y="238" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Neodymium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="iBa-ZR-d1C">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="92" translatesAutoresizingMaskIntoConstraints="NO" id="RmP-S1-r5w" customClass="ElementButton">
+                        <rect key="frame" x="411" y="139" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Uranium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="ME9-Ao-FRB">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="61" translatesAutoresizingMaskIntoConstraints="NO" id="7Oa-QG-e6p" customClass="ElementButton">
+                        <rect key="frame" x="486" y="238" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Promethium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="pXD-8q-rvb">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="93" translatesAutoresizingMaskIntoConstraints="NO" id="68x-Iv-ifg" customClass="ElementButton">
+                        <rect key="frame" x="486" y="139" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Neptunium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="xed-nD-5uG">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="62" translatesAutoresizingMaskIntoConstraints="NO" id="Rav-H2-f0w" customClass="ElementButton">
+                        <rect key="frame" x="561" y="238" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Samarium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="BRL-Hr-ee1">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="94" translatesAutoresizingMaskIntoConstraints="NO" id="T6t-IK-YGM" customClass="ElementButton">
+                        <rect key="frame" x="561" y="139" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Plutonium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="Iy8-js-fkB">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="63" translatesAutoresizingMaskIntoConstraints="NO" id="dIy-AV-a7F" customClass="ElementButton">
+                        <rect key="frame" x="633" y="238" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Europium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="zKj-Rj-aHX">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="95" translatesAutoresizingMaskIntoConstraints="NO" id="eRl-v0-mn2" customClass="ElementButton">
+                        <rect key="frame" x="633" y="139" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Americium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="u9i-4d-cEj">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="64" translatesAutoresizingMaskIntoConstraints="NO" id="vBR-Bo-cMV" customClass="ElementButton">
+                        <rect key="frame" x="708" y="238" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Gadolinium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="HBU-qx-TX6">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="96" translatesAutoresizingMaskIntoConstraints="NO" id="gKr-7o-xrC" customClass="ElementButton">
+                        <rect key="frame" x="708" y="139" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Curium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="70E-Lk-ZEG">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="65" translatesAutoresizingMaskIntoConstraints="NO" id="xta-Hd-vdz" customClass="ElementButton">
+                        <rect key="frame" x="783" y="238" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Terbium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="bbf-4g-ghH">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="97" translatesAutoresizingMaskIntoConstraints="NO" id="QpE-Jj-ndb" customClass="ElementButton">
+                        <rect key="frame" x="783" y="139" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Berkelium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="bgE-Gr-IzL">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="66" translatesAutoresizingMaskIntoConstraints="NO" id="7b1-vR-hV5" customClass="ElementButton">
+                        <rect key="frame" x="855" y="238" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Dysprosium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="8Wi-gt-XcG">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="98" translatesAutoresizingMaskIntoConstraints="NO" id="GU7-rV-epU" customClass="ElementButton">
+                        <rect key="frame" x="855" y="139" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Californium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="vMD-Fc-Pmj">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="67" translatesAutoresizingMaskIntoConstraints="NO" id="0h7-eH-w38" customClass="ElementButton">
+                        <rect key="frame" x="930" y="238" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Holmium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="oe9-gS-yw1">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="99" translatesAutoresizingMaskIntoConstraints="NO" id="aq0-7W-53Q" customClass="ElementButton">
+                        <rect key="frame" x="930" y="139" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Einsteinium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="Gj8-Q1-lK1">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="68" translatesAutoresizingMaskIntoConstraints="NO" id="vlz-zl-bMV" customClass="ElementButton">
+                        <rect key="frame" x="1005" y="238" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Erbium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="QE5-dh-zeW">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="100" translatesAutoresizingMaskIntoConstraints="NO" id="aGe-qP-J7v" customClass="ElementButton">
+                        <rect key="frame" x="1005" y="139" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Fermium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="DQa-fP-ulV">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="69" translatesAutoresizingMaskIntoConstraints="NO" id="zHj-vN-vhY" customClass="ElementButton">
+                        <rect key="frame" x="1077" y="238" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Thulium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="rHd-g8-8vt">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="101" translatesAutoresizingMaskIntoConstraints="NO" id="GPz-IE-eJV" customClass="ElementButton">
+                        <rect key="frame" x="1077" y="139" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Mendelevium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="mHZ-49-XFM">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="70" translatesAutoresizingMaskIntoConstraints="NO" id="L3d-oB-Fxa" customClass="ElementButton">
+                        <rect key="frame" x="1152" y="238" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Ytterbium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="C3C-VK-r1X">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="102" translatesAutoresizingMaskIntoConstraints="NO" id="dOS-Of-1hV" customClass="ElementButton">
+                        <rect key="frame" x="1152" y="139" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Nobelium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="fuE-mh-wqc">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="71" translatesAutoresizingMaskIntoConstraints="NO" id="ZSs-i7-tlw" customClass="ElementButton">
+                        <rect key="frame" x="1227" y="238" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Lutetium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="oEF-kE-WxB">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="103" translatesAutoresizingMaskIntoConstraints="NO" id="jAk-kl-qGC" customClass="ElementButton">
+                        <rect key="frame" x="1227" y="139" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Lawrencium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="ApA-66-Whn">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="4" translatesAutoresizingMaskIntoConstraints="NO" id="dRf-t8-Qrl" customClass="ElementButton">
+                        <rect key="frame" x="119" y="889" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Beryllium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="fFW-Oi-8lQ">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button focusRingType="none" fixedFrame="YES" tag="12" translatesAutoresizingMaskIntoConstraints="NO" id="r1t-o4-Xw0" customClass="ElementButton">
+                        <rect key="frame" x="119" y="790" width="76" height="100"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Magnesium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="r3f-Vn-PpE" customClass="ElementButtonCell">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                </subviews>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
+            </connections>
+            <point key="canvasLocation" x="595.5" y="599.5"/>
+        </window>
+    </objects>
+    <resources>
+        <image name="Actinium" width="76" height="100"/>
+        <image name="Aluminum" width="76" height="100"/>
+        <image name="Americium" width="76" height="100"/>
+        <image name="Antimony" width="76" height="100"/>
+        <image name="Argon" width="76" height="100"/>
+        <image name="Arsenic" width="76" height="100"/>
+        <image name="Astatine" width="76" height="100"/>
+        <image name="Barium" width="76" height="100"/>
+        <image name="Berkelium" width="76" height="100"/>
+        <image name="Beryllium" width="76" height="100"/>
+        <image name="Bismuth" width="76" height="100"/>
+        <image name="Bohrium" width="76" height="100"/>
+        <image name="Boron" width="76" height="100"/>
+        <image name="Bromine" width="76" height="100"/>
+        <image name="Cadmium" width="76" height="100"/>
+        <image name="Calcium" width="76" height="100"/>
+        <image name="Californium" width="76" height="100"/>
+        <image name="Carbon" width="76" height="100"/>
+        <image name="Cerium" width="76" height="100"/>
+        <image name="Cesium" width="76" height="100"/>
+        <image name="Chlorine" width="76" height="100"/>
+        <image name="Chromium" width="76" height="100"/>
+        <image name="Cobalt" width="76" height="100"/>
+        <image name="Copernicium" width="76" height="100"/>
+        <image name="Copper" width="76" height="100"/>
+        <image name="Curium" width="76" height="100"/>
+        <image name="Darmstadtium" width="76" height="100"/>
+        <image name="Dubnium" width="76" height="100"/>
+        <image name="Dysprosium" width="76" height="100"/>
+        <image name="Einsteinium" width="76" height="100"/>
+        <image name="Erbium" width="76" height="100"/>
+        <image name="Europium" width="76" height="100"/>
+        <image name="Fermium" width="76" height="100"/>
+        <image name="Flerovium" width="76" height="100"/>
+        <image name="Fluorine" width="709" height="930"/>
+        <image name="Francium" width="76" height="100"/>
+        <image name="Gadolinium" width="76" height="100"/>
+        <image name="Gallium" width="76" height="100"/>
+        <image name="Germanium" width="76" height="100"/>
+        <image name="Gold" width="76" height="100"/>
+        <image name="Hafnium" width="76" height="100"/>
+        <image name="Hassium" width="76" height="100"/>
+        <image name="Helium" width="76" height="100"/>
+        <image name="Holmium" width="76" height="100"/>
+        <image name="Hydrogen" width="76" height="100"/>
+        <image name="Indium" width="76" height="100"/>
+        <image name="Iodine" width="76" height="100"/>
+        <image name="Iridium" width="76" height="100"/>
+        <image name="Iron" width="76" height="100"/>
+        <image name="Krypton" width="76" height="100"/>
+        <image name="Lanthanum" width="76" height="100"/>
+        <image name="Lawrencium" width="76" height="100"/>
+        <image name="Lead" width="76" height="100"/>
+        <image name="Lithium" width="76" height="100"/>
+        <image name="Livermorium" width="76" height="100"/>
+        <image name="Lutetium" width="76" height="100"/>
+        <image name="Magnesium" width="76" height="100"/>
+        <image name="Manganese" width="76" height="100"/>
+        <image name="Meitnerium" width="76" height="100"/>
+        <image name="Mendelevium" width="76" height="100"/>
+        <image name="Mercury" width="76" height="100"/>
+        <image name="Molybdenum" width="76" height="100"/>
+        <image name="Neodymium" width="76" height="100"/>
+        <image name="Neon" width="76" height="100"/>
+        <image name="Neptunium" width="76" height="100"/>
+        <image name="Nickel" width="76" height="100"/>
+        <image name="Niobium" width="76" height="100"/>
+        <image name="Nitrogen" width="76" height="100"/>
+        <image name="Nobelium" width="76" height="100"/>
+        <image name="Osmium" width="76" height="100"/>
+        <image name="Oxygen" width="76" height="100"/>
+        <image name="Palladium" width="76" height="100"/>
+        <image name="Phosphorus" width="76" height="100"/>
+        <image name="Platinum" width="76" height="100"/>
+        <image name="Plutonium" width="76" height="100"/>
+        <image name="Polonium" width="76" height="100"/>
+        <image name="Potassium" width="76" height="100"/>
+        <image name="Praseodymium" width="76" height="100"/>
+        <image name="Promethium" width="76" height="100"/>
+        <image name="Protactinium" width="76" height="100"/>
+        <image name="Radium" width="76" height="100"/>
+        <image name="Radon" width="76" height="100"/>
+        <image name="Rhenium" width="76" height="100"/>
+        <image name="Rhodium" width="76" height="100"/>
+        <image name="Roentgenium" width="76" height="100"/>
+        <image name="Rubidium" width="76" height="100"/>
+        <image name="Ruthenium" width="76" height="100"/>
+        <image name="Rutherfordium" width="76" height="100"/>
+        <image name="Samarium" width="76" height="100"/>
+        <image name="Scandium" width="76" height="100"/>
+        <image name="Seaborgium" width="76" height="100"/>
+        <image name="Selenium" width="76" height="100"/>
+        <image name="Silicon" width="76" height="100"/>
+        <image name="Silver" width="76" height="100"/>
+        <image name="Sodium" width="76" height="100"/>
+        <image name="Strontium" width="76" height="100"/>
+        <image name="Sulfur" width="76" height="100"/>
+        <image name="Tantalum" width="76" height="100"/>
+        <image name="Technetium" width="76" height="100"/>
+        <image name="Tellurium" width="76" height="100"/>
+        <image name="Terbium" width="76" height="100"/>
+        <image name="Thalium" width="76" height="100"/>
+        <image name="Thorium" width="76" height="100"/>
+        <image name="Thulium" width="76" height="100"/>
+        <image name="Tin" width="76" height="100"/>
+        <image name="Titanium" width="76" height="100"/>
+        <image name="Tungsten" width="76" height="100"/>
+        <image name="Ununoctium" width="76" height="100"/>
+        <image name="Ununpentium" width="76" height="100"/>
+        <image name="Ununseptimum" width="76" height="100"/>
+        <image name="Ununtrium" width="76" height="100"/>
+        <image name="Uranium" width="76" height="100"/>
+        <image name="Vanadium" width="76" height="100"/>
+        <image name="Xenon" width="76" height="100"/>
+        <image name="Ytterbium" width="76" height="100"/>
+        <image name="Yttrium" width="76" height="100"/>
+        <image name="Zinc" width="76" height="100"/>
+        <image name="Zirconium" width="76" height="100"/>
+    </resources>
+</document>
