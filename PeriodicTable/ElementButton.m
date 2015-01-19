@@ -11,13 +11,18 @@
 @implementation ElementButton
 
 - (void)drawRect:(NSRect)dirtyRect {
+    
+    [[NSImage imageNamed:@"YellowBG"] drawInRect:dirtyRect];
+    
     [super drawRect:dirtyRect];
     
 
 }
 
 
-
-
+-(void)mouseDown:(NSEvent *)theEvent{
+//NSLog(@"The Button Was Clicked %li", (long)self.tag);
+    [super mouseDown:theEvent];
+}
 
 @end

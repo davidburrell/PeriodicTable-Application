@@ -8,7 +8,9 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface PeriodicTableWindow : NSWindowController
+@interface PeriodicTableWindow : NSWindowController <NSTableViewDataSource, NSTableViewDelegate>
 - (IBAction)onElementSelection:(id)sender;
+@property (nonatomic, strong) NSArray *numbers;
+@property (nonatomic, strong) NSArray *numberCodes;
 
 @end
