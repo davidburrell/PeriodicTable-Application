@@ -15,14 +15,14 @@
         <window title="Periodic Table" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hasShadow="NO" oneShot="NO" releasedWhenClosed="NO" animationBehavior="default" id="F0z-JX-Cv5">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" texturedBackground="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="196" y="240" width="1641" height="1109"/>
+            <rect key="contentRect" x="196" y="240" width="1641" height="1176"/>
             <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
             <view key="contentView" id="se5-gp-TjO">
-                <rect key="frame" x="0.0" y="0.0" width="1641" height="1109"/>
+                <rect key="frame" x="0.0" y="0.0" width="1641" height="1176"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 <subviews>
                     <button focusRingType="none" fixedFrame="YES" tag="23" translatesAutoresizingMaskIntoConstraints="NO" id="4yD-sk-sN5" customClass="ElementButton">
-                        <rect key="frame" x="417" y="633" width="71" height="93"/>
+                        <rect key="frame" x="417" y="700" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Vanadium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="3sM-QS-4Ke">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -32,7 +32,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="73" translatesAutoresizingMaskIntoConstraints="NO" id="QGf-WM-e5f" customClass="ElementButton">
-                        <rect key="frame" x="417" y="424" width="71" height="93"/>
+                        <rect key="frame" x="417" y="491" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Tantalum" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="6JE-8f-nmN">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -42,7 +42,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="41" translatesAutoresizingMaskIntoConstraints="NO" id="U2P-TN-w15" customClass="ElementButton">
-                        <rect key="frame" x="417" y="530" width="71" height="93"/>
+                        <rect key="frame" x="417" y="597" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Niobium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="e65-3e-yat">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -52,7 +52,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="105" translatesAutoresizingMaskIntoConstraints="NO" id="2Rz-tq-Q4L" customClass="ElementButton">
-                        <rect key="frame" x="417" y="321" width="71" height="93"/>
+                        <rect key="frame" x="417" y="388" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Dubnium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="hts-xX-9V5">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -62,7 +62,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="24" translatesAutoresizingMaskIntoConstraints="NO" id="aUP-4D-1Rl" customClass="ElementButton">
-                        <rect key="frame" x="498" y="633" width="71" height="93"/>
+                        <rect key="frame" x="498" y="700" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Chromium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="8gA-Xu-pyg">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -72,7 +72,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="74" translatesAutoresizingMaskIntoConstraints="NO" id="tbp-xX-zxb" customClass="ElementButton">
-                        <rect key="frame" x="497" y="424" width="71" height="93"/>
+                        <rect key="frame" x="497" y="491" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Tungsten" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="W1M-5S-7AW">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -82,7 +82,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="42" translatesAutoresizingMaskIntoConstraints="NO" id="dkw-pU-kie" customClass="ElementButton">
-                        <rect key="frame" x="497" y="530" width="71" height="93"/>
+                        <rect key="frame" x="497" y="597" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Molybdenum" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="vj3-ir-cMf">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -92,7 +92,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="106" translatesAutoresizingMaskIntoConstraints="NO" id="Jfq-AM-NiN" customClass="ElementButton">
-                        <rect key="frame" x="496" y="321" width="71" height="93"/>
+                        <rect key="frame" x="496" y="388" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Seaborgium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="xt7-WR-t3h">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -102,7 +102,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="25" translatesAutoresizingMaskIntoConstraints="NO" id="0W8-jF-ENC" customClass="ElementButton">
-                        <rect key="frame" x="579" y="633" width="71" height="93"/>
+                        <rect key="frame" x="579" y="700" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Manganese" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="Tns-vX-ibh">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -112,7 +112,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="75" translatesAutoresizingMaskIntoConstraints="NO" id="qjV-S2-qis" customClass="ElementButton">
-                        <rect key="frame" x="579" y="424" width="71" height="93"/>
+                        <rect key="frame" x="579" y="491" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Rhenium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="7Nk-az-4jH">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -122,7 +122,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="43" translatesAutoresizingMaskIntoConstraints="NO" id="WLo-Z5-qdh" customClass="ElementButton">
-                        <rect key="frame" x="579" y="530" width="71" height="93"/>
+                        <rect key="frame" x="579" y="597" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Technetium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="Iq5-N9-Am3">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -132,7 +132,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="107" translatesAutoresizingMaskIntoConstraints="NO" id="wHR-nx-jB1" customClass="ElementButton">
-                        <rect key="frame" x="579" y="321" width="71" height="93"/>
+                        <rect key="frame" x="579" y="388" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Bohrium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="oOI-Of-Hys">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -142,7 +142,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="26" translatesAutoresizingMaskIntoConstraints="NO" id="s5M-Ck-UFU" customClass="ElementButton">
-                        <rect key="frame" x="662" y="633" width="71" height="93"/>
+                        <rect key="frame" x="662" y="700" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Iron" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="h5C-q8-0ZR">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -152,7 +152,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="76" translatesAutoresizingMaskIntoConstraints="NO" id="kSg-kI-voz" customClass="ElementButton">
-                        <rect key="frame" x="662" y="424" width="71" height="93"/>
+                        <rect key="frame" x="662" y="491" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Osmium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="F94-T6-ODg">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -162,7 +162,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="44" translatesAutoresizingMaskIntoConstraints="NO" id="Wjy-gV-Tpn" customClass="ElementButton">
-                        <rect key="frame" x="662" y="530" width="71" height="93"/>
+                        <rect key="frame" x="662" y="597" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Ruthenium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="uJA-0g-h3a">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -172,7 +172,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="108" translatesAutoresizingMaskIntoConstraints="NO" id="cgq-tK-ZAw" customClass="ElementButton">
-                        <rect key="frame" x="662" y="321" width="71" height="93"/>
+                        <rect key="frame" x="662" y="388" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Hassium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="cXU-Nh-685">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -182,7 +182,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="45" translatesAutoresizingMaskIntoConstraints="NO" id="5z3-Mp-AJc" customClass="ElementButton">
-                        <rect key="frame" x="745" y="530" width="71" height="93"/>
+                        <rect key="frame" x="745" y="597" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Rhodium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="ucL-Cn-Gx6">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -192,7 +192,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="27" translatesAutoresizingMaskIntoConstraints="NO" id="X6C-7i-7Um" customClass="ElementButton">
-                        <rect key="frame" x="745" y="633" width="71" height="93"/>
+                        <rect key="frame" x="745" y="700" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Cobalt" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="b3g-1H-LL8">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -202,7 +202,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="77" translatesAutoresizingMaskIntoConstraints="NO" id="d5L-d6-lIy" customClass="ElementButton">
-                        <rect key="frame" x="745" y="424" width="71" height="93"/>
+                        <rect key="frame" x="745" y="491" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Iridium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="pmI-yY-O8W">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -212,7 +212,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="109" translatesAutoresizingMaskIntoConstraints="NO" id="KAe-HK-WKz" customClass="ElementButton">
-                        <rect key="frame" x="745" y="321" width="71" height="93"/>
+                        <rect key="frame" x="745" y="388" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Meitnerium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="rbK-MF-irb">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -222,7 +222,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="28" translatesAutoresizingMaskIntoConstraints="NO" id="dfH-R9-Jgr" customClass="ElementButton">
-                        <rect key="frame" x="826" y="633" width="71" height="93"/>
+                        <rect key="frame" x="826" y="700" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Nickel" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="dkO-m8-gmh">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -232,7 +232,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="78" translatesAutoresizingMaskIntoConstraints="NO" id="ebg-02-lbb" customClass="ElementButton">
-                        <rect key="frame" x="826" y="424" width="71" height="93"/>
+                        <rect key="frame" x="826" y="491" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Platinum" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="oqY-ej-YB6">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -242,7 +242,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="46" translatesAutoresizingMaskIntoConstraints="NO" id="8fx-fd-eDr" customClass="ElementButton">
-                        <rect key="frame" x="826" y="530" width="71" height="93"/>
+                        <rect key="frame" x="826" y="597" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Palladium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="N7b-2y-uc8">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -252,7 +252,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="110" translatesAutoresizingMaskIntoConstraints="NO" id="7gJ-0S-4qy" customClass="ElementButton">
-                        <rect key="frame" x="826" y="321" width="71" height="93"/>
+                        <rect key="frame" x="826" y="388" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Darmstadtium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="weJ-jl-00t">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -261,8 +261,8 @@
                             <action selector="onElementSelection:" target="-2" id="BRY-bK-Cdj"/>
                         </connections>
                     </button>
-                    <button focusRingType="none" fixedFrame="YES" tag="3" translatesAutoresizingMaskIntoConstraints="NO" id="anL-BP-Rb9" customClass="ElementButton">
-                        <rect key="frame" x="909" y="633" width="71" height="93"/>
+                    <button focusRingType="none" fixedFrame="YES" tag="29" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="anL-BP-Rb9" customClass="ElementButton">
+                        <rect key="frame" x="909" y="700" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Copper" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="qdr-IE-1hi">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -272,7 +272,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="79" translatesAutoresizingMaskIntoConstraints="NO" id="Hli-9O-W0u" customClass="ElementButton">
-                        <rect key="frame" x="909" y="424" width="71" height="93"/>
+                        <rect key="frame" x="909" y="491" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Gold" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="sNx-CB-7xH">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -282,7 +282,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="47" translatesAutoresizingMaskIntoConstraints="NO" id="aHR-9Y-rpJ" customClass="ElementButton">
-                        <rect key="frame" x="909" y="530" width="71" height="93"/>
+                        <rect key="frame" x="909" y="597" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Silver" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="x9W-1G-87U">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -292,7 +292,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="111" translatesAutoresizingMaskIntoConstraints="NO" id="ABS-kg-hDB" customClass="ElementButton">
-                        <rect key="frame" x="909" y="321" width="71" height="93"/>
+                        <rect key="frame" x="909" y="388" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Roentgenium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="oqO-10-X3i">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -302,7 +302,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="30" translatesAutoresizingMaskIntoConstraints="NO" id="iX7-78-MCU" customClass="ElementButton">
-                        <rect key="frame" x="991" y="633" width="71" height="93"/>
+                        <rect key="frame" x="991" y="700" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Zinc" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="VbE-wR-YVr">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -312,7 +312,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="80" translatesAutoresizingMaskIntoConstraints="NO" id="dAr-5v-CK8" customClass="ElementButton">
-                        <rect key="frame" x="991" y="424" width="71" height="93"/>
+                        <rect key="frame" x="991" y="491" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Mercury" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="Ybb-hI-xcM">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -322,7 +322,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="48" translatesAutoresizingMaskIntoConstraints="NO" id="9A0-pP-lzz" customClass="ElementButton">
-                        <rect key="frame" x="991" y="530" width="71" height="93"/>
+                        <rect key="frame" x="991" y="597" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Cadmium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="9WF-im-YlV">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -332,7 +332,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="112" translatesAutoresizingMaskIntoConstraints="NO" id="t5z-XX-iQs" customClass="ElementButton">
-                        <rect key="frame" x="991" y="321" width="71" height="93"/>
+                        <rect key="frame" x="991" y="388" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Copernicium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="OGw-YK-0cT">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -342,7 +342,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="31" translatesAutoresizingMaskIntoConstraints="NO" id="2Al-0c-nK2" customClass="ElementButton">
-                        <rect key="frame" x="1071" y="633" width="71" height="93"/>
+                        <rect key="frame" x="1071" y="700" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Gallium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="Nc5-uh-pDB">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -352,7 +352,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="13" translatesAutoresizingMaskIntoConstraints="NO" id="PaO-2b-bn0" customClass="ElementButton">
-                        <rect key="frame" x="1071" y="736" width="71" height="93"/>
+                        <rect key="frame" x="1071" y="803" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Aluminum" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="z8B-OK-VbF">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -362,7 +362,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="81" translatesAutoresizingMaskIntoConstraints="NO" id="j7Q-Wk-qde" customClass="ElementButton">
-                        <rect key="frame" x="1071" y="424" width="71" height="93"/>
+                        <rect key="frame" x="1071" y="491" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Thallium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="Gij-4v-ZfW">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -372,7 +372,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="49" translatesAutoresizingMaskIntoConstraints="NO" id="aiw-bh-t8o" customClass="ElementButton">
-                        <rect key="frame" x="1071" y="530" width="71" height="93"/>
+                        <rect key="frame" x="1071" y="597" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Indium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="Bki-I8-ybw">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -382,7 +382,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="113" translatesAutoresizingMaskIntoConstraints="NO" id="YlH-fD-3oD" customClass="ElementButton">
-                        <rect key="frame" x="1071" y="321" width="71" height="93"/>
+                        <rect key="frame" x="1071" y="388" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Ununtrium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="7Xr-Rg-iqO">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -392,7 +392,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="32" translatesAutoresizingMaskIntoConstraints="NO" id="uxd-gn-Rv8" customClass="ElementButton">
-                        <rect key="frame" x="1152" y="633" width="71" height="93"/>
+                        <rect key="frame" x="1152" y="700" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Germanium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="24q-77-EKF">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -402,7 +402,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="14" translatesAutoresizingMaskIntoConstraints="NO" id="rVk-mU-0Tp" customClass="ElementButton">
-                        <rect key="frame" x="1152" y="736" width="71" height="93"/>
+                        <rect key="frame" x="1152" y="803" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Silicon" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="imM-n5-gZP">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -412,7 +412,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="82" translatesAutoresizingMaskIntoConstraints="NO" id="691-fe-PWB" customClass="ElementButton">
-                        <rect key="frame" x="1152" y="424" width="71" height="93"/>
+                        <rect key="frame" x="1152" y="491" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Lead" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="C5l-2x-ctk">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -422,7 +422,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="50" translatesAutoresizingMaskIntoConstraints="NO" id="hWb-9c-lzg" customClass="ElementButton">
-                        <rect key="frame" x="1152" y="530" width="71" height="93"/>
+                        <rect key="frame" x="1152" y="597" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Tin" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="eR4-Vh-0tA">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -432,7 +432,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="114" translatesAutoresizingMaskIntoConstraints="NO" id="EfM-Gt-SNl" customClass="ElementButton">
-                        <rect key="frame" x="1152" y="321" width="71" height="93"/>
+                        <rect key="frame" x="1152" y="388" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Flerovium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="efs-tN-klR">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -442,7 +442,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="33" translatesAutoresizingMaskIntoConstraints="NO" id="Dks-Ff-dkz" customClass="ElementButton">
-                        <rect key="frame" x="1233" y="633" width="71" height="93"/>
+                        <rect key="frame" x="1233" y="700" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Arsenic" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="OKl-ML-WS4">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -452,7 +452,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="15" translatesAutoresizingMaskIntoConstraints="NO" id="jEI-3i-TWf" customClass="ElementButton">
-                        <rect key="frame" x="1233" y="736" width="71" height="93"/>
+                        <rect key="frame" x="1233" y="803" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Phosphorus" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="had-e5-Rby">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -462,7 +462,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="83" translatesAutoresizingMaskIntoConstraints="NO" id="2Td-Og-T3T" customClass="ElementButton">
-                        <rect key="frame" x="1233" y="424" width="71" height="93"/>
+                        <rect key="frame" x="1233" y="491" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Bismuth" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="fwV-Gq-a1C">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -472,7 +472,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="51" translatesAutoresizingMaskIntoConstraints="NO" id="Sda-B6-hp3" customClass="ElementButton">
-                        <rect key="frame" x="1233" y="530" width="71" height="93"/>
+                        <rect key="frame" x="1233" y="597" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Antimony" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="ZQ2-28-NGV">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -482,7 +482,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="115" translatesAutoresizingMaskIntoConstraints="NO" id="8oe-0Q-hDh" customClass="ElementButton">
-                        <rect key="frame" x="1233" y="321" width="71" height="93"/>
+                        <rect key="frame" x="1233" y="388" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Ununpentium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="CGH-NZ-jti">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -492,7 +492,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="3" translatesAutoresizingMaskIntoConstraints="NO" id="wgn-6C-kfz" customClass="ElementButton">
-                        <rect key="frame" x="1314" y="633" width="71" height="93"/>
+                        <rect key="frame" x="1314" y="700" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Selenium" imagePosition="overlaps" alignment="center" focusRingType="none" tag="34" imageScaling="proportionallyDown" inset="2" id="4lq-H6-0an">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -502,7 +502,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="16" translatesAutoresizingMaskIntoConstraints="NO" id="cme-La-sed" customClass="ElementButton">
-                        <rect key="frame" x="1314" y="736" width="71" height="93"/>
+                        <rect key="frame" x="1314" y="803" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Sulfur" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="PJp-G3-v6J">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -512,7 +512,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="84" translatesAutoresizingMaskIntoConstraints="NO" id="O97-oF-Dvs" customClass="ElementButton">
-                        <rect key="frame" x="1314" y="424" width="71" height="93"/>
+                        <rect key="frame" x="1314" y="491" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Polonium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="WMi-pV-pm8">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -522,7 +522,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="52" translatesAutoresizingMaskIntoConstraints="NO" id="xmC-Lz-6eo" customClass="ElementButton">
-                        <rect key="frame" x="1314" y="530" width="71" height="93"/>
+                        <rect key="frame" x="1314" y="597" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Tellurium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="OUY-mM-dUh">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -532,7 +532,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="116" translatesAutoresizingMaskIntoConstraints="NO" id="pvi-Z5-PW0" customClass="ElementButton">
-                        <rect key="frame" x="1314" y="321" width="71" height="93"/>
+                        <rect key="frame" x="1314" y="388" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Livermorium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="j6g-De-T1S">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -542,7 +542,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="35" translatesAutoresizingMaskIntoConstraints="NO" id="jEX-ah-Lwk" customClass="ElementButton">
-                        <rect key="frame" x="1395" y="633" width="71" height="93"/>
+                        <rect key="frame" x="1395" y="700" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Bromine" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="1dt-WQ-MMG">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -552,7 +552,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="17" translatesAutoresizingMaskIntoConstraints="NO" id="qrf-M3-aAT" customClass="ElementButton">
-                        <rect key="frame" x="1395" y="736" width="71" height="93"/>
+                        <rect key="frame" x="1395" y="803" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Chlorine" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="Mn9-8K-uH6">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -562,7 +562,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="85" translatesAutoresizingMaskIntoConstraints="NO" id="EAG-ci-nuS" customClass="ElementButton">
-                        <rect key="frame" x="1395" y="424" width="71" height="93"/>
+                        <rect key="frame" x="1395" y="491" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Astatine" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="MEs-8x-fmh">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -572,7 +572,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="53" translatesAutoresizingMaskIntoConstraints="NO" id="CA9-M2-Nka" customClass="ElementButton">
-                        <rect key="frame" x="1395" y="530" width="71" height="93"/>
+                        <rect key="frame" x="1395" y="597" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Iodine" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="MUV-OE-3fb">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -582,7 +582,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="117" translatesAutoresizingMaskIntoConstraints="NO" id="2eh-6z-5Bd" customClass="ElementButton">
-                        <rect key="frame" x="1395" y="321" width="71" height="93"/>
+                        <rect key="frame" x="1395" y="388" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Ununseptium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="FbN-V4-eAn">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -592,7 +592,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="36" translatesAutoresizingMaskIntoConstraints="NO" id="Hpr-eo-qx5" customClass="ElementButton">
-                        <rect key="frame" x="1476" y="633" width="71" height="93"/>
+                        <rect key="frame" x="1476" y="700" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Krypton" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="WfM-38-4Zr">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -602,7 +602,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="18" translatesAutoresizingMaskIntoConstraints="NO" id="JMK-Pa-1vj" customClass="ElementButton">
-                        <rect key="frame" x="1476" y="736" width="71" height="93"/>
+                        <rect key="frame" x="1476" y="803" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Argon" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="ngL-Nb-tOO">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -612,7 +612,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="86" translatesAutoresizingMaskIntoConstraints="NO" id="3Au-rs-eeG" customClass="ElementButton">
-                        <rect key="frame" x="1476" y="424" width="71" height="93"/>
+                        <rect key="frame" x="1476" y="491" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Radon" imagePosition="overlaps" alignment="center" focusRingType="none" tag="86" imageScaling="proportionallyDown" inset="2" id="l68-rg-vjq">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -622,7 +622,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="54" translatesAutoresizingMaskIntoConstraints="NO" id="17t-Tc-pfh" customClass="ElementButton">
-                        <rect key="frame" x="1476" y="530" width="71" height="93"/>
+                        <rect key="frame" x="1476" y="597" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Xenon" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="sag-cn-DKM">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -632,7 +632,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="118" translatesAutoresizingMaskIntoConstraints="NO" id="Mci-7k-2I7" customClass="ElementButton">
-                        <rect key="frame" x="1476" y="321" width="71" height="93"/>
+                        <rect key="frame" x="1476" y="388" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Ununoctium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="dh2-cx-4VO">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -642,7 +642,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="6" translatesAutoresizingMaskIntoConstraints="NO" id="iXF-Gp-aJD" customClass="ElementButton">
-                        <rect key="frame" x="1152" y="839" width="71" height="93"/>
+                        <rect key="frame" x="1152" y="906" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Carbon" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="GKJ-ls-ZOP">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -652,7 +652,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="7" translatesAutoresizingMaskIntoConstraints="NO" id="heB-8V-Tit" customClass="ElementButton">
-                        <rect key="frame" x="1233" y="839" width="71" height="93"/>
+                        <rect key="frame" x="1233" y="906" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Nitrogen" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="8TE-n0-AvJ">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -662,7 +662,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="8" translatesAutoresizingMaskIntoConstraints="NO" id="jA4-ch-727" customClass="ElementButton">
-                        <rect key="frame" x="1314" y="839" width="71" height="93"/>
+                        <rect key="frame" x="1314" y="906" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Oxygen" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="1Qz-Ap-pHr">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -672,7 +672,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="9" translatesAutoresizingMaskIntoConstraints="NO" id="TlR-Ie-K3D" customClass="ElementButton">
-                        <rect key="frame" x="1395" y="839" width="71" height="93"/>
+                        <rect key="frame" x="1395" y="906" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Fluorine" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="YGq-Tn-Cos">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -682,7 +682,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="10" translatesAutoresizingMaskIntoConstraints="NO" id="peC-nG-ra0" customClass="ElementButton">
-                        <rect key="frame" x="1476" y="839" width="71" height="93"/>
+                        <rect key="frame" x="1476" y="906" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Neon" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="WkD-xh-gVH">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -692,7 +692,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="2" translatesAutoresizingMaskIntoConstraints="NO" id="Pa3-cW-BJO" customClass="ElementButton">
-                        <rect key="frame" x="1476" y="942" width="71" height="93"/>
+                        <rect key="frame" x="1476" y="1009" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Helium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="OPO-LB-pZa">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -702,7 +702,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="58" translatesAutoresizingMaskIntoConstraints="NO" id="rfE-N0-e5f" customClass="ElementButton">
-                        <rect key="frame" x="417" y="166" width="71" height="93"/>
+                        <rect key="frame" x="417" y="236" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Cerium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="QUT-SJ-T0s">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -712,7 +712,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="90" translatesAutoresizingMaskIntoConstraints="NO" id="8ul-BV-LAo" customClass="ElementButton">
-                        <rect key="frame" x="417" y="63" width="71" height="93"/>
+                        <rect key="frame" x="417" y="133" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Thorium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="W75-SF-XfO">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -722,7 +722,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="59" translatesAutoresizingMaskIntoConstraints="NO" id="79Z-QB-1fw" customClass="ElementButton">
-                        <rect key="frame" x="496" y="166" width="71" height="93"/>
+                        <rect key="frame" x="496" y="236" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Praseodymium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="YUK-lC-8KQ">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -732,7 +732,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="91" translatesAutoresizingMaskIntoConstraints="NO" id="fHL-vD-9xo" customClass="ElementButton">
-                        <rect key="frame" x="496" y="63" width="71" height="93"/>
+                        <rect key="frame" x="496" y="133" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Protactinium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="6dj-jn-8A9">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -742,7 +742,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="60" translatesAutoresizingMaskIntoConstraints="NO" id="GpS-G4-A63" customClass="ElementButton">
-                        <rect key="frame" x="579" y="166" width="71" height="93"/>
+                        <rect key="frame" x="579" y="236" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Neodymium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="iBa-ZR-d1C">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -752,7 +752,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="92" translatesAutoresizingMaskIntoConstraints="NO" id="RmP-S1-r5w" customClass="ElementButton">
-                        <rect key="frame" x="579" y="63" width="71" height="93"/>
+                        <rect key="frame" x="579" y="133" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Uranium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="ME9-Ao-FRB">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -762,7 +762,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="61" translatesAutoresizingMaskIntoConstraints="NO" id="7Oa-QG-e6p" customClass="ElementButton">
-                        <rect key="frame" x="662" y="166" width="71" height="93"/>
+                        <rect key="frame" x="662" y="236" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Promethium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="pXD-8q-rvb">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -772,7 +772,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="93" translatesAutoresizingMaskIntoConstraints="NO" id="68x-Iv-ifg" customClass="ElementButton">
-                        <rect key="frame" x="662" y="63" width="71" height="93"/>
+                        <rect key="frame" x="662" y="133" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Neptunium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="xed-nD-5uG">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -782,7 +782,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="62" translatesAutoresizingMaskIntoConstraints="NO" id="Rav-H2-f0w" customClass="ElementButton">
-                        <rect key="frame" x="745" y="166" width="71" height="93"/>
+                        <rect key="frame" x="745" y="236" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Samarium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="BRL-Hr-ee1">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -792,7 +792,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="94" translatesAutoresizingMaskIntoConstraints="NO" id="T6t-IK-YGM" customClass="ElementButton">
-                        <rect key="frame" x="745" y="63" width="71" height="93"/>
+                        <rect key="frame" x="745" y="133" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Plutonium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="Iy8-js-fkB">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -802,7 +802,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="63" translatesAutoresizingMaskIntoConstraints="NO" id="dIy-AV-a7F" customClass="ElementButton">
-                        <rect key="frame" x="826" y="166" width="71" height="93"/>
+                        <rect key="frame" x="826" y="236" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Europium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="zKj-Rj-aHX">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -812,7 +812,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="95" translatesAutoresizingMaskIntoConstraints="NO" id="eRl-v0-mn2" customClass="ElementButton">
-                        <rect key="frame" x="826" y="63" width="71" height="93"/>
+                        <rect key="frame" x="826" y="133" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Americium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="u9i-4d-cEj">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -822,7 +822,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="64" translatesAutoresizingMaskIntoConstraints="NO" id="vBR-Bo-cMV" customClass="ElementButton">
-                        <rect key="frame" x="909" y="166" width="71" height="93"/>
+                        <rect key="frame" x="909" y="236" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Gadolinium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="HBU-qx-TX6">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -832,7 +832,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="96" translatesAutoresizingMaskIntoConstraints="NO" id="gKr-7o-xrC" customClass="ElementButton">
-                        <rect key="frame" x="909" y="63" width="71" height="93"/>
+                        <rect key="frame" x="909" y="133" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Curium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="70E-Lk-ZEG">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -842,7 +842,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="65" translatesAutoresizingMaskIntoConstraints="NO" id="xta-Hd-vdz" customClass="ElementButton">
-                        <rect key="frame" x="991" y="166" width="71" height="93"/>
+                        <rect key="frame" x="991" y="236" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Terbium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="bbf-4g-ghH">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -852,7 +852,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="97" translatesAutoresizingMaskIntoConstraints="NO" id="QpE-Jj-ndb" customClass="ElementButton">
-                        <rect key="frame" x="991" y="63" width="71" height="93"/>
+                        <rect key="frame" x="991" y="133" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Berkelium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="bgE-Gr-IzL">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -862,7 +862,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="66" translatesAutoresizingMaskIntoConstraints="NO" id="7b1-vR-hV5" customClass="ElementButton">
-                        <rect key="frame" x="1071" y="166" width="71" height="93"/>
+                        <rect key="frame" x="1071" y="236" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Dysprosium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="8Wi-gt-XcG">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -872,7 +872,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="98" translatesAutoresizingMaskIntoConstraints="NO" id="GU7-rV-epU" customClass="ElementButton">
-                        <rect key="frame" x="1071" y="63" width="71" height="93"/>
+                        <rect key="frame" x="1071" y="133" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Californium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="vMD-Fc-Pmj">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -882,7 +882,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="67" translatesAutoresizingMaskIntoConstraints="NO" id="0h7-eH-w38" customClass="ElementButton">
-                        <rect key="frame" x="1152" y="166" width="71" height="93"/>
+                        <rect key="frame" x="1152" y="236" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Holmium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="oe9-gS-yw1">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -892,7 +892,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="99" translatesAutoresizingMaskIntoConstraints="NO" id="aq0-7W-53Q" customClass="ElementButton">
-                        <rect key="frame" x="1152" y="63" width="71" height="93"/>
+                        <rect key="frame" x="1152" y="133" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Einsteinium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="Gj8-Q1-lK1">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -902,7 +902,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="68" translatesAutoresizingMaskIntoConstraints="NO" id="vlz-zl-bMV" customClass="ElementButton">
-                        <rect key="frame" x="1233" y="166" width="71" height="93"/>
+                        <rect key="frame" x="1233" y="236" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Erbium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="QE5-dh-zeW">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -912,7 +912,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="100" translatesAutoresizingMaskIntoConstraints="NO" id="aGe-qP-J7v" customClass="ElementButton">
-                        <rect key="frame" x="1233" y="63" width="71" height="93"/>
+                        <rect key="frame" x="1233" y="133" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Fermium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="DQa-fP-ulV">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -922,7 +922,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="69" translatesAutoresizingMaskIntoConstraints="NO" id="zHj-vN-vhY" customClass="ElementButton">
-                        <rect key="frame" x="1314" y="166" width="71" height="93"/>
+                        <rect key="frame" x="1314" y="236" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Thulium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="rHd-g8-8vt">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -932,7 +932,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="101" translatesAutoresizingMaskIntoConstraints="NO" id="GPz-IE-eJV" customClass="ElementButton">
-                        <rect key="frame" x="1314" y="63" width="71" height="93"/>
+                        <rect key="frame" x="1314" y="133" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Mendelevium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="mHZ-49-XFM">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -942,7 +942,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="70" translatesAutoresizingMaskIntoConstraints="NO" id="L3d-oB-Fxa" customClass="ElementButton">
-                        <rect key="frame" x="1395" y="166" width="71" height="93"/>
+                        <rect key="frame" x="1395" y="236" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Ytterbium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="C3C-VK-r1X">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -952,7 +952,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="102" translatesAutoresizingMaskIntoConstraints="NO" id="dOS-Of-1hV" customClass="ElementButton">
-                        <rect key="frame" x="1395" y="63" width="71" height="93"/>
+                        <rect key="frame" x="1395" y="133" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Nobelium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="fuE-mh-wqc">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -962,7 +962,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="71" translatesAutoresizingMaskIntoConstraints="NO" id="ZSs-i7-tlw" customClass="ElementButton">
-                        <rect key="frame" x="1476" y="166" width="71" height="93"/>
+                        <rect key="frame" x="1476" y="236" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Lutetium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="oEF-kE-WxB">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -972,7 +972,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="103" translatesAutoresizingMaskIntoConstraints="NO" id="jAk-kl-qGC" customClass="ElementButton">
-                        <rect key="frame" x="1476" y="63" width="71" height="93"/>
+                        <rect key="frame" x="1476" y="133" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Lawrencium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="ApA-66-Whn">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -982,11 +982,11 @@
                         </connections>
                     </button>
                     <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P0b-OD-rSG">
-                        <rect key="frame" x="417" y="769" width="213" height="279"/>
+                        <rect key="frame" x="519" y="836" width="213" height="279"/>
                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="HydrogenLarge" id="rXb-Yk-HaQ"/>
                     </imageView>
                     <button focusRingType="none" fixedFrame="YES" tag="3" translatesAutoresizingMaskIntoConstraints="NO" id="Fo4-gy-78A" customClass="ElementButton">
-                        <rect key="frame" x="93" y="839" width="71" height="93"/>
+                        <rect key="frame" x="93" y="906" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Lithium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="qet-yK-i5d">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -996,7 +996,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="1" translatesAutoresizingMaskIntoConstraints="NO" id="1ub-Ma-h3c" customClass="ElementButton">
-                        <rect key="frame" x="93" y="942" width="71" height="93"/>
+                        <rect key="frame" x="93" y="1009" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Hydrogen" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="tyr-dA-LhW">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -1006,7 +1006,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="19" translatesAutoresizingMaskIntoConstraints="NO" id="hD3-OU-GcS" customClass="ElementButton">
-                        <rect key="frame" x="93" y="633" width="71" height="93"/>
+                        <rect key="frame" x="93" y="700" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Potassium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="bSk-02-dIS">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -1016,7 +1016,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="11" translatesAutoresizingMaskIntoConstraints="NO" id="qHz-QD-sxW" customClass="ElementButton">
-                        <rect key="frame" x="93" y="736" width="71" height="93"/>
+                        <rect key="frame" x="93" y="803" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Sodium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="3PA-tE-yyi">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -1026,7 +1026,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="55" translatesAutoresizingMaskIntoConstraints="NO" id="I82-9J-1GQ" customClass="ElementButton">
-                        <rect key="frame" x="93" y="424" width="71" height="93"/>
+                        <rect key="frame" x="93" y="491" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Cesium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="vgq-Lh-LjS">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -1036,7 +1036,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="37" translatesAutoresizingMaskIntoConstraints="NO" id="aLE-3a-FGO" customClass="ElementButton">
-                        <rect key="frame" x="93" y="530" width="71" height="93"/>
+                        <rect key="frame" x="93" y="597" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Rubidium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="TMa-yr-yVd">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -1046,7 +1046,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="87" translatesAutoresizingMaskIntoConstraints="NO" id="bsW-g4-gDs" customClass="ElementButton">
-                        <rect key="frame" x="93" y="321" width="71" height="93"/>
+                        <rect key="frame" x="93" y="388" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Francium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="g3H-02-hgN">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -1056,7 +1056,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="20" translatesAutoresizingMaskIntoConstraints="NO" id="rcU-FI-Q9M" customClass="ElementButton">
-                        <rect key="frame" x="174" y="633" width="71" height="93"/>
+                        <rect key="frame" x="174" y="700" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Calcium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="2Yy-7M-iH9">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -1066,7 +1066,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="56" translatesAutoresizingMaskIntoConstraints="NO" id="rlR-IJ-EKf" customClass="ElementButton">
-                        <rect key="frame" x="174" y="424" width="71" height="93"/>
+                        <rect key="frame" x="174" y="491" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Barium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="Mot-VL-y2L">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -1076,7 +1076,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="38" translatesAutoresizingMaskIntoConstraints="NO" id="CL9-iv-xE1" customClass="ElementButton">
-                        <rect key="frame" x="174" y="530" width="71" height="93"/>
+                        <rect key="frame" x="174" y="597" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Strontium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="0kW-bx-B3S">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -1086,7 +1086,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="88" translatesAutoresizingMaskIntoConstraints="NO" id="48F-aY-aHp" customClass="ElementButton">
-                        <rect key="frame" x="174" y="321" width="71" height="93"/>
+                        <rect key="frame" x="174" y="388" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Radium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="OPs-gd-gjU">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -1096,7 +1096,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="21" translatesAutoresizingMaskIntoConstraints="NO" id="5lu-ki-2Uf" customClass="ElementButton">
-                        <rect key="frame" x="255" y="633" width="71" height="93"/>
+                        <rect key="frame" x="255" y="700" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Scandium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="gMh-Mc-cns">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -1106,7 +1106,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="57" translatesAutoresizingMaskIntoConstraints="NO" id="Ygj-1X-ahH" customClass="ElementButton">
-                        <rect key="frame" x="336" y="166" width="71" height="93"/>
+                        <rect key="frame" x="336" y="236" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Lanthanum" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="hr6-on-iYZ">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -1116,7 +1116,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="39" translatesAutoresizingMaskIntoConstraints="NO" id="7z4-P5-TBU" customClass="ElementButton">
-                        <rect key="frame" x="255" y="530" width="71" height="93"/>
+                        <rect key="frame" x="255" y="597" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Yttrium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="KBp-Vx-d9D">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -1126,7 +1126,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="89" translatesAutoresizingMaskIntoConstraints="NO" id="vtC-eU-0CR" customClass="ElementButton">
-                        <rect key="frame" x="336" y="63" width="71" height="93"/>
+                        <rect key="frame" x="336" y="133" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Actinium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="HZl-FV-7ru">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -1136,7 +1136,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="22" translatesAutoresizingMaskIntoConstraints="NO" id="SzD-Fx-0kp" customClass="ElementButton">
-                        <rect key="frame" x="336" y="633" width="71" height="93"/>
+                        <rect key="frame" x="336" y="700" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Titanium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="YYq-k9-AM1">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -1146,7 +1146,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="72" translatesAutoresizingMaskIntoConstraints="NO" id="J5L-ZF-a7F" customClass="ElementButton">
-                        <rect key="frame" x="336" y="424" width="71" height="93"/>
+                        <rect key="frame" x="336" y="491" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Hafnium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="P8y-GI-UUm">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -1156,7 +1156,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="40" translatesAutoresizingMaskIntoConstraints="NO" id="wtc-RT-Jhv" customClass="ElementButton">
-                        <rect key="frame" x="336" y="530" width="71" height="93"/>
+                        <rect key="frame" x="336" y="597" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Zirconium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="9gI-Lh-Dfz">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -1166,7 +1166,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="104" translatesAutoresizingMaskIntoConstraints="NO" id="hVc-ah-yYJ" customClass="ElementButton">
-                        <rect key="frame" x="336" y="321" width="71" height="93"/>
+                        <rect key="frame" x="336" y="388" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Rutherfordium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="1zq-3u-ZL7">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -1176,7 +1176,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="4" translatesAutoresizingMaskIntoConstraints="NO" id="dRf-t8-Qrl" customClass="ElementButton">
-                        <rect key="frame" x="174" y="839" width="71" height="93"/>
+                        <rect key="frame" x="174" y="906" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Beryllium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="fFW-Oi-8lQ">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -1186,7 +1186,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="12" translatesAutoresizingMaskIntoConstraints="NO" id="r1t-o4-Xw0" customClass="ElementButton">
-                        <rect key="frame" x="174" y="736" width="71" height="93"/>
+                        <rect key="frame" x="174" y="803" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Magnesium" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="r3f-Vn-PpE">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -1196,7 +1196,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="5771" translatesAutoresizingMaskIntoConstraints="NO" id="oco-oY-y84" customClass="ElementButton">
-                        <rect key="frame" x="255" y="424" width="71" height="93"/>
+                        <rect key="frame" x="255" y="491" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="LanthanideSeries" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="LWz-pm-OkQ">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -1206,7 +1206,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" fixedFrame="YES" tag="89103" translatesAutoresizingMaskIntoConstraints="NO" id="JwK-lF-3Dt" customClass="ElementButton">
-                        <rect key="frame" x="255" y="321" width="71" height="93"/>
+                        <rect key="frame" x="255" y="388" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="ActinideSeries" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="nq7-oT-MwH">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -1216,7 +1216,7 @@
                         </connections>
                     </button>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mM8-rc-cZi">
-                        <rect key="frame" x="49" y="975" width="38" height="27"/>
+                        <rect key="frame" x="49" y="1042" width="38" height="27"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="1" id="6vi-Xe-NHe">
                             <font key="font" size="17" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1224,7 +1224,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Nv-zO-idS">
-                        <rect key="frame" x="49" y="872" width="38" height="27"/>
+                        <rect key="frame" x="49" y="939" width="38" height="27"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="2" id="NzN-b2-w1u">
                             <font key="font" size="17" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1232,7 +1232,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jao-VS-kXS">
-                        <rect key="frame" x="49" y="769" width="38" height="27"/>
+                        <rect key="frame" x="49" y="836" width="38" height="27"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="3" id="Aix-2a-Bd6">
                             <font key="font" size="17" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1240,7 +1240,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qAp-1z-FNx">
-                        <rect key="frame" x="49" y="666" width="38" height="27"/>
+                        <rect key="frame" x="49" y="733" width="38" height="27"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="4" id="Fyu-YR-ztD">
                             <font key="font" size="17" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1248,7 +1248,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pvD-AP-WFU">
-                        <rect key="frame" x="49" y="563" width="38" height="27"/>
+                        <rect key="frame" x="49" y="630" width="38" height="27"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="5" id="ea1-oc-ViN">
                             <font key="font" size="17" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1256,7 +1256,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j3c-ou-IMv">
-                        <rect key="frame" x="49" y="457" width="38" height="27"/>
+                        <rect key="frame" x="49" y="524" width="38" height="27"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="6" id="F8d-37-NH2">
                             <font key="font" size="17" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1264,47 +1264,15 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kIj-q8-Y0u">
-                        <rect key="frame" x="49" y="354" width="38" height="27"/>
+                        <rect key="frame" x="49" y="421" width="38" height="27"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="7" id="OfK-Cc-elt">
                             <font key="font" size="17" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1ow-oQ-oVx">
-                        <rect key="frame" x="91" y="1043" width="38" height="18"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="1" id="1Fx-oc-f8r">
-                            <font key="font" size="14" name="OldNewspaperTypes"/>
-                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vad-Xy-VGF">
-                        <rect key="frame" x="128" y="1043" width="38" height="18"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="IA" id="nno-ub-uP1">
-                            <font key="font" size="14" name="OldNewspaperTypes"/>
-                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="luH-1s-N4o">
-                        <rect key="frame" x="172" y="942" width="38" height="18"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="2" id="2KT-Zf-g0v">
-                            <font key="font" size="14" name="OldNewspaperTypes"/>
-                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Qf-dk-F90">
-                        <rect key="frame" x="209" y="942" width="38" height="18"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="IIA" id="MHb-Aa-uXq">
-                            <font key="font" size="14" name="OldNewspaperTypes"/>
-                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9cd-c4-SdH">
-                        <rect key="frame" x="253" y="736" width="38" height="18"/>
+                        <rect key="frame" x="253" y="803" width="38" height="18"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="3" id="122-73-upL">
                             <font key="font" size="14" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1312,7 +1280,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BRL-DE-95d">
-                        <rect key="frame" x="290" y="736" width="38" height="18"/>
+                        <rect key="frame" x="290" y="803" width="38" height="18"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="IIIB" id="RW0-VZ-SkQ">
                             <font key="font" size="14" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1320,7 +1288,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xHq-R9-B1x">
-                        <rect key="frame" x="334" y="736" width="38" height="18"/>
+                        <rect key="frame" x="334" y="803" width="38" height="18"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="4" id="uTP-UW-dVt">
                             <font key="font" size="14" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1328,7 +1296,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ij7-p8-CX0">
-                        <rect key="frame" x="371" y="736" width="38" height="18"/>
+                        <rect key="frame" x="371" y="803" width="38" height="18"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="IVB" id="Q6M-CA-3FP">
                             <font key="font" size="14" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1336,7 +1304,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k81-kS-bRI">
-                        <rect key="frame" x="415" y="736" width="38" height="18"/>
+                        <rect key="frame" x="415" y="803" width="38" height="18"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="5" id="8pv-m9-Wse">
                             <font key="font" size="14" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1344,7 +1312,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k4T-Zc-6zu">
-                        <rect key="frame" x="452" y="736" width="38" height="18"/>
+                        <rect key="frame" x="452" y="803" width="38" height="18"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="VB" id="NkV-o3-92L">
                             <font key="font" size="14" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1352,7 +1320,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gNa-Y2-fJ6">
-                        <rect key="frame" x="494" y="736" width="38" height="18"/>
+                        <rect key="frame" x="494" y="803" width="38" height="18"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="6" id="CA0-P3-LAp">
                             <font key="font" size="14" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1360,7 +1328,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gPU-3j-3mC">
-                        <rect key="frame" x="531" y="736" width="38" height="18"/>
+                        <rect key="frame" x="531" y="803" width="38" height="18"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="VIB" id="eqL-Ev-KBT">
                             <font key="font" size="14" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1368,7 +1336,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VrI-lI-h87">
-                        <rect key="frame" x="577" y="736" width="38" height="18"/>
+                        <rect key="frame" x="577" y="803" width="38" height="18"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="7" id="f1P-Vn-MPs">
                             <font key="font" size="14" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1376,7 +1344,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qzq-oy-TvH">
-                        <rect key="frame" x="614" y="736" width="39" height="18"/>
+                        <rect key="frame" x="614" y="803" width="39" height="18"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="VIIB" id="lhY-Nd-y2N">
                             <font key="font" size="14" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1384,7 +1352,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JPo-Nw-t0L">
-                        <rect key="frame" x="660" y="736" width="38" height="18"/>
+                        <rect key="frame" x="660" y="803" width="38" height="18"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="8" id="4ty-0P-EhL">
                             <font key="font" size="14" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1392,7 +1360,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sce-KW-9QX">
-                        <rect key="frame" x="697" y="736" width="46" height="18"/>
+                        <rect key="frame" x="697" y="803" width="46" height="18"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="VIIIB" id="byw-G2-6hL">
                             <font key="font" size="14" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1400,7 +1368,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pDY-sm-6oK">
-                        <rect key="frame" x="743" y="736" width="38" height="18"/>
+                        <rect key="frame" x="743" y="803" width="38" height="18"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="9" id="QrV-kV-oqE">
                             <font key="font" size="14" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1408,7 +1376,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a47-Xa-hpT">
-                        <rect key="frame" x="780" y="736" width="46" height="18"/>
+                        <rect key="frame" x="780" y="803" width="46" height="18"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="VIIIB" id="yIf-Pp-fTO">
                             <font key="font" size="14" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1416,7 +1384,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="daC-lE-VYp">
-                        <rect key="frame" x="824" y="736" width="38" height="18"/>
+                        <rect key="frame" x="824" y="803" width="38" height="18"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="10" id="ywB-gu-Yda">
                             <font key="font" size="14" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1424,31 +1392,15 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U1M-g7-XzE">
-                        <rect key="frame" x="861" y="736" width="46" height="18"/>
+                        <rect key="frame" x="861" y="803" width="46" height="18"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="VIIIB" id="m5Y-wH-aw6">
                             <font key="font" size="14" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BMK-mN-blp">
-                        <rect key="frame" x="907" y="736" width="38" height="18"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="11" id="Hfc-rl-mGk">
-                            <font key="font" size="14" name="OldNewspaperTypes"/>
-                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vy5-og-nHS">
-                        <rect key="frame" x="944" y="736" width="38" height="18"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="IB" id="c2N-Xh-9ex">
-                            <font key="font" size="14" name="OldNewspaperTypes"/>
-                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PVo-SP-zgL">
-                        <rect key="frame" x="990" y="736" width="38" height="18"/>
+                        <rect key="frame" x="990" y="803" width="38" height="18"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="12" id="EDV-kt-5Em">
                             <font key="font" size="14" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1456,7 +1408,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1lc-ce-vrL">
-                        <rect key="frame" x="1027" y="736" width="38" height="18"/>
+                        <rect key="frame" x="1027" y="803" width="38" height="18"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="IIB" id="nJq-vP-9ol">
                             <font key="font" size="14" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1464,7 +1416,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w9G-TG-Co1">
-                        <rect key="frame" x="1069" y="942" width="38" height="18"/>
+                        <rect key="frame" x="1069" y="1009" width="38" height="18"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="13" id="McM-cd-UaN">
                             <font key="font" size="14" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1472,7 +1424,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F2z-d4-mi2">
-                        <rect key="frame" x="1106" y="942" width="38" height="18"/>
+                        <rect key="frame" x="1106" y="1009" width="38" height="18"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="IIIA" id="7UD-aR-4Hu">
                             <font key="font" size="14" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1480,7 +1432,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lOE-Wl-6Ml">
-                        <rect key="frame" x="1150" y="942" width="38" height="18"/>
+                        <rect key="frame" x="1150" y="1009" width="38" height="18"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="14" id="xOI-Ma-WhG">
                             <font key="font" size="14" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1488,119 +1440,47 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fke-0H-bRw">
-                        <rect key="frame" x="1187" y="942" width="38" height="18"/>
+                        <rect key="frame" x="1187" y="1009" width="38" height="18"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="IVA" id="O1K-vj-zfy">
                             <font key="font" size="14" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vuH-2r-3oe">
-                        <rect key="frame" x="1231" y="942" width="38" height="18"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="15" id="jok-s3-xfe">
-                            <font key="font" size="14" name="OldNewspaperTypes"/>
-                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hAC-vB-x8C">
-                        <rect key="frame" x="1268" y="942" width="38" height="18"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="VA" id="KtF-qQ-ylg">
-                            <font key="font" size="14" name="OldNewspaperTypes"/>
-                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M9e-eU-TjV">
-                        <rect key="frame" x="1310" y="942" width="38" height="18"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="16" id="rH4-xT-1DN">
-                            <font key="font" size="14" name="OldNewspaperTypes"/>
-                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m6F-PW-k0r">
-                        <rect key="frame" x="1347" y="942" width="38" height="18"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="VIA" id="RU9-mi-sAo">
-                            <font key="font" size="14" name="OldNewspaperTypes"/>
-                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7pW-2P-8x4">
-                        <rect key="frame" x="1393" y="942" width="38" height="18"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="17" id="8Ax-LI-40x">
-                            <font key="font" size="14" name="OldNewspaperTypes"/>
-                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qs1-vg-8hx">
-                        <rect key="frame" x="1430" y="942" width="40" height="18"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="VIIA" id="sU6-Kq-akm">
-                            <font key="font" size="14" name="OldNewspaperTypes"/>
-                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="chu-gE-8ZL">
-                        <rect key="frame" x="1474" y="1043" width="38" height="18"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="18" id="8lR-fW-jz8">
-                            <font key="font" size="14" name="OldNewspaperTypes"/>
-                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tmS-jc-GCU">
-                        <rect key="frame" x="1511" y="1043" width="38" height="18"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="VIII" id="7ym-c0-pq2">
-                            <font key="font" size="14" name="OldNewspaperTypes"/>
-                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="controlLightHighlightColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="79M-Ca-yVv">
-                        <rect key="frame" x="369" y="1018" width="38" height="17"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Label" id="EQQ-Yy-PvF">
-                            <font key="font" metaFont="system"/>
+                        <rect key="frame" x="346" y="1074" width="149" height="28"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Atomic Number" id="EQQ-Yy-PvF">
+                            <font key="font" size="17" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uiQ-nJ-oEq">
-                        <rect key="frame" x="369" y="915" width="38" height="17"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Label" id="dy5-cY-bBj">
-                            <font key="font" metaFont="system"/>
+                        <rect key="frame" x="346" y="968" width="149" height="31"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Atomic Symbol" id="dy5-cY-bBj">
+                            <font key="font" size="17" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Mz-z7-4mW">
-                        <rect key="frame" x="371" y="812" width="38" height="17"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Label" id="5Ts-X8-ktq">
-                            <font key="font" metaFont="system"/>
+                        <rect key="frame" x="390" y="885" width="107" height="22"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Name" id="5Ts-X8-ktq">
+                            <font key="font" size="17" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3YG-oZ-sVu">
-                        <rect key="frame" x="369" y="774" width="38" height="17"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Label" id="nzR-1u-IUo">
-                            <font key="font" metaFont="system"/>
-                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UDS-hu-hdA">
-                        <rect key="frame" x="641" y="1018" width="38" height="17"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="Label" id="lIi-sA-iOi">
-                            <font key="font" metaFont="system"/>
+                        <rect key="frame" x="259" y="836" width="238" height="22"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Electron Shell Configuration" id="nzR-1u-IUo">
+                            <font key="font" size="17" name="OldNewspaperTypes"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
                     <button focusRingType="none" fixedFrame="YES" tag="5" translatesAutoresizingMaskIntoConstraints="NO" id="8ST-aC-2AU" customClass="ElementButton">
-                        <rect key="frame" x="1071" y="839" width="71" height="93"/>
+                        <rect key="frame" x="1071" y="906" width="71" height="93"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Boron" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="XJL-Xc-8vu">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -1609,84 +1489,36 @@
                             <action selector="onElementSelection:" target="-2" id="9AH-cK-iaD"/>
                         </connections>
                     </button>
-                    <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="36" horizontalPageScroll="10" verticalLineScroll="36" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GFY-zq-yFH">
-                        <rect key="frame" x="764" y="900" width="240" height="135"/>
-                        <clipView key="contentView" misplaced="YES" id="M6e-lx-mm7">
-                            <rect key="frame" x="1" y="0.0" width="238" height="134"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            <subviews>
-                                <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="34" rowSizeStyle="automatic" headerView="6PO-bb-QZP" viewBased="YES" id="3pu-hp-dLU">
-                                    <rect key="frame" x="0.0" y="0.0" width="238" height="134"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <size key="intercellSpacing" width="3" height="2"/>
-                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
-                                    <tableColumns>
-                                        <tableColumn width="116" minWidth="40" maxWidth="1000" id="JbZ-eh-QIj">
-                                            <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left">
-                                                <font key="font" metaFont="smallSystem"/>
-                                                <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
-                                                <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
-                                            </tableHeaderCell>
-                                            <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" title="Text Cell" id="IRz-MI-wpB">
-                                                <font key="font" metaFont="system"/>
-                                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                            </textFieldCell>
-                                            <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
-                                            <prototypeCellViews>
-                                                <tableCellView id="Kcc-rN-dGD">
-                                                    <rect key="frame" x="1" y="1" width="170" height="34"/>
-                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                    <subviews>
-                                                        <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WJa-lX-rRh">
-                                                            <rect key="frame" x="3" y="17" width="17" height="17"/>
-                                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="NSActionTemplate" id="TyR-cK-KI3"/>
-                                                        </imageView>
-                                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6rV-LQ-U6X">
-                                                            <rect key="frame" x="25" y="17" width="105" height="17"/>
-                                                            <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="aRH-w5-3uH">
-                                                                <font key="font" metaFont="system"/>
-                                                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                                            </textFieldCell>
-                                                        </textField>
-                                                    </subviews>
-                                                    <connections>
-                                                        <outlet property="imageView" destination="WJa-lX-rRh" id="vd6-iM-CQe"/>
-                                                        <outlet property="textField" destination="6rV-LQ-U6X" id="VTO-YN-Wbc"/>
-                                                    </connections>
-                                                </tableCellView>
-                                            </prototypeCellViews>
-                                        </tableColumn>
-                                    </tableColumns>
-                                    <connections>
-                                        <outlet property="dataSource" destination="-2" id="yNF-DO-rNu"/>
-                                        <outlet property="delegate" destination="-2" id="WxZ-PQ-UHe"/>
-                                    </connections>
-                                </tableView>
-                            </subviews>
-                            <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
-                        </clipView>
-                        <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="sX8-du-acb">
-                            <rect key="frame" x="1" y="118.99911844730377" width="237.99805450439453" height="15"/>
-                            <autoresizingMask key="autoresizingMask"/>
-                        </scroller>
-                        <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="TER-UP-JVq">
-                            <rect key="frame" x="224" y="17" width="15" height="102"/>
-                            <autoresizingMask key="autoresizingMask"/>
-                        </scroller>
-                        <tableHeaderView key="headerView" id="6PO-bb-QZP">
-                            <rect key="frame" x="0.0" y="0.0" width="238" height="17"/>
-                            <autoresizingMask key="autoresizingMask"/>
-                        </tableHeaderView>
-                    </scrollView>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UDS-hu-hdA">
+                        <rect key="frame" x="755" y="1074" width="125" height="28"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="Atomic Mass" id="lIi-sA-iOi">
+                            <font key="font" size="17" name="OldNewspaperTypes"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hKe-94-GDa">
+                        <rect key="frame" x="1476" y="1098" width="71" height="48"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="testHeader" id="HhB-hP-tHm"/>
+                    </imageView>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xMR-xu-7zN">
+                        <rect key="frame" x="1312" y="994" width="71" height="48"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ChalcogensHeader" id="R0K-Mi-0th"/>
+                    </imageView>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9hh-QE-ErE">
+                        <rect key="frame" x="1395" y="994" width="71" height="48"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="HalogensHeader" id="6aC-ed-1cB"/>
+                    </imageView>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UVV-C3-tPO">
+                        <rect key="frame" x="909" y="788" width="71" height="48"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="CoinageMetalsHeader" id="ZR9-Jv-NVC"/>
+                    </imageView>
                 </subviews>
             </view>
             <connections>
                 <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
             </connections>
-            <point key="canvasLocation" x="662.5" y="605.5"/>
+            <point key="canvasLocation" x="662.5" y="639"/>
         </window>
     </objects>
     <resources>
@@ -1711,9 +1543,11 @@
         <image name="Carbon" width="213" height="279"/>
         <image name="Cerium" width="213" height="279"/>
         <image name="Cesium" width="213" height="279"/>
+        <image name="ChalcogensHeader" width="71" height="30"/>
         <image name="Chlorine" width="213" height="279"/>
         <image name="Chromium" width="213" height="279"/>
         <image name="Cobalt" width="213" height="279"/>
+        <image name="CoinageMetalsHeader" width="71" height="30"/>
         <image name="Copernicium" width="213" height="279"/>
         <image name="Copper" width="213" height="279"/>
         <image name="Curium" width="213" height="279"/>
@@ -1732,6 +1566,7 @@
         <image name="Germanium" width="213" height="279"/>
         <image name="Gold" width="213" height="279"/>
         <image name="Hafnium" width="213" height="279"/>
+        <image name="HalogensHeader" width="71" height="30"/>
         <image name="Hassium" width="213" height="279"/>
         <image name="Helium" width="213" height="279"/>
         <image name="Holmium" width="213" height="279"/>
@@ -1755,7 +1590,6 @@
         <image name="Mendelevium" width="213" height="279"/>
         <image name="Mercury" width="213" height="279"/>
         <image name="Molybdenum" width="213" height="279"/>
-        <image name="NSActionTemplate" width="14" height="14"/>
         <image name="Neodymium" width="213" height="279"/>
         <image name="Neon" width="213" height="279"/>
         <image name="Neptunium" width="213" height="279"/>
@@ -1812,5 +1646,6 @@
         <image name="Yttrium" width="213" height="279"/>
         <image name="Zinc" width="213" height="279"/>
         <image name="Zirconium" width="213" height="279"/>
+        <image name="testHeader" width="71" height="30"/>
     </resources>
 </document>
