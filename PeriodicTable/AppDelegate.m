@@ -9,7 +9,9 @@
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
+{
 
+}
 
 @end
 
@@ -28,5 +30,18 @@
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application
 }
-
+-(BOOL)applicationShouldHandleReopen:(NSApplication *)sender hasVisibleWindows:(BOOL)flag{
+    if ( flag ) {
+           if (thePeriodicTable == NULL) {
+               thePeriodicTable = [[PeriodicTableWindow alloc] initWithWindowNibName:@"PeriodicTableWindow"];
+               [thePeriodicTable showWindow:self];
+           }
+           
+    }
+    else {
+        [thePeriodicTable.window makeKeyAndOrderFront:self];
+    }
+    
+    return YES;
+}
 @end

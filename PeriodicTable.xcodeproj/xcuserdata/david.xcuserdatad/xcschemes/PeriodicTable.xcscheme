@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "639BDAFC1A5F84CC0043F97C"
-               BuildableName = "PeriodicTable.app"
+               BuildableName = "The Periodic Table.app"
                BlueprintName = "PeriodicTable"
                ReferencedContainer = "container:PeriodicTable.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "639BDAFC1A5F84CC0043F97C"
-            BuildableName = "PeriodicTable.app"
+            BuildableName = "The Periodic Table.app"
             BlueprintName = "PeriodicTable"
             ReferencedContainer = "container:PeriodicTable.xcodeproj">
          </BuildableReference>
@@ -72,11 +72,12 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "639BDAFC1A5F84CC0043F97C"
-            BuildableName = "PeriodicTable.app"
+            BuildableName = "The Periodic Table.app"
             BlueprintName = "PeriodicTable"
             ReferencedContainer = "container:PeriodicTable.xcodeproj">
          </BuildableReference>
@@ -90,11 +91,12 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "639BDAFC1A5F84CC0043F97C"
-            BuildableName = "PeriodicTable.app"
+            BuildableName = "The Periodic Table.app"
             BlueprintName = "PeriodicTable"
             ReferencedContainer = "container:PeriodicTable.xcodeproj">
          </BuildableReference>

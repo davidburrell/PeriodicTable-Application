@@ -10,6 +10,18 @@
 		634A9DC91A5F8788006F41FA /* PeriodicTableWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 634A9DC71A5F8788006F41FA /* PeriodicTableWindow.m */; };
 		634A9DCA1A5F8788006F41FA /* PeriodicTableWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 634A9DC81A5F8788006F41FA /* PeriodicTableWindow.xib */; };
 		634A9ED61A5F8C56006F41FA /* ElementButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 634A9ED51A5F8C56006F41FA /* ElementButton.m */; };
+		63507F7A1AAE9554001E298F /* Xenon.png in Resources */ = {isa = PBXBuildFile; fileRef = 63507F791AAE9554001E298F /* Xenon.png */; };
+		63507F7C1AAE96B9001E298F /* Chlorine.png in Resources */ = {isa = PBXBuildFile; fileRef = 63507F7B1AAE96B9001E298F /* Chlorine.png */; };
+		63507F8C1AAE9CDB001E298F /* icon_16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 63507F821AAE9CDB001E298F /* icon_16x16.png */; };
+		63507F8D1AAE9CDB001E298F /* icon_16x16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63507F831AAE9CDB001E298F /* icon_16x16@2x.png */; };
+		63507F8E1AAE9CDB001E298F /* icon_128x128.png in Resources */ = {isa = PBXBuildFile; fileRef = 63507F841AAE9CDB001E298F /* icon_128x128.png */; };
+		63507F8F1AAE9CDB001E298F /* icon_128x128@2x-.png in Resources */ = {isa = PBXBuildFile; fileRef = 63507F851AAE9CDB001E298F /* icon_128x128@2x-.png */; };
+		63507F901AAE9CDB001E298F /* icon_256x256.png in Resources */ = {isa = PBXBuildFile; fileRef = 63507F861AAE9CDB001E298F /* icon_256x256.png */; };
+		63507F911AAE9CDB001E298F /* icon_256x256@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63507F871AAE9CDB001E298F /* icon_256x256@2x.png */; };
+		63507F921AAE9CDB001E298F /* icon_32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 63507F881AAE9CDB001E298F /* icon_32x32.png */; };
+		63507F931AAE9CDB001E298F /* icon_32x32@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63507F891AAE9CDB001E298F /* icon_32x32@2x.png */; };
+		63507F941AAE9CDB001E298F /* icon_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = 63507F8A1AAE9CDB001E298F /* icon_512x512.png */; };
+		63507F951AAE9CDB001E298F /* icon_512x512@2x-.png in Resources */ = {isa = PBXBuildFile; fileRef = 63507F8B1AAE9CDB001E298F /* icon_512x512@2x-.png */; };
 		639BDB041A5F84CC0043F97C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 639BDB031A5F84CC0043F97C /* AppDelegate.m */; };
 		639BDB061A5F84CC0043F97C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 639BDB051A5F84CC0043F97C /* main.m */; };
 		639BDB081A5F84CC0043F97C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639BDB071A5F84CC0043F97C /* Images.xcassets */; };
@@ -42,7 +54,6 @@
 		63F82CCD1A6DCF560063F7E9 /* Carbon.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F82C481A6DCF560063F7E9 /* Carbon.png */; };
 		63F82CCE1A6DCF560063F7E9 /* Cerium.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F82C491A6DCF560063F7E9 /* Cerium.png */; };
 		63F82CCF1A6DCF560063F7E9 /* Cesium.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F82C4A1A6DCF560063F7E9 /* Cesium.png */; };
-		63F82CD01A6DCF560063F7E9 /* Chlorine.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F82C4B1A6DCF560063F7E9 /* Chlorine.png */; };
 		63F82CD11A6DCF560063F7E9 /* Chromium.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F82C4C1A6DCF560063F7E9 /* Chromium.png */; };
 		63F82CD21A6DCF560063F7E9 /* Cobalt.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F82C4D1A6DCF560063F7E9 /* Cobalt.png */; };
 		63F82CD31A6DCF560063F7E9 /* Copernicium.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F82C4E1A6DCF560063F7E9 /* Copernicium.png */; };
@@ -145,23 +156,12 @@
 		63F82D341A6DCF560063F7E9 /* Ununtrium.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F82CAF1A6DCF560063F7E9 /* Ununtrium.png */; };
 		63F82D351A6DCF560063F7E9 /* Uranium.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F82CB01A6DCF560063F7E9 /* Uranium.png */; };
 		63F82D361A6DCF560063F7E9 /* Vanadium.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F82CB11A6DCF560063F7E9 /* Vanadium.png */; };
-		63F82D371A6DCF560063F7E9 /* Xenon.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F82CB21A6DCF560063F7E9 /* Xenon.png */; };
 		63F82D381A6DCF560063F7E9 /* YellowBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F82CB31A6DCF560063F7E9 /* YellowBG.png */; };
 		63F82D391A6DCF560063F7E9 /* Ytterbium.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F82CB41A6DCF560063F7E9 /* Ytterbium.png */; };
 		63F82D3A1A6DCF560063F7E9 /* Yttrium.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F82CB51A6DCF560063F7E9 /* Yttrium.png */; };
 		63F82D3B1A6DCF560063F7E9 /* Zinc.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F82CB61A6DCF560063F7E9 /* Zinc.png */; };
 		63F82D3C1A6DCF560063F7E9 /* Zirconium.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F82CB71A6DCF560063F7E9 /* Zirconium.png */; };
-		63F82D401A6DE04A0063F7E9 /* rightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F82D3D1A6DE04A0063F7E9 /* rightArrow.png */; };
-		63F82D411A6DE04A0063F7E9 /* RightArrowStraight.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F82D3E1A6DE04A0063F7E9 /* RightArrowStraight.png */; };
-		63F82D421A6DE04A0063F7E9 /* TurnArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F82D3F1A6DE04A0063F7E9 /* TurnArrow.png */; };
 		63F82D481A6DE5FF0063F7E9 /* testHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F82D471A6DE5FF0063F7E9 /* testHeader.png */; };
-		63F82D501A6DEAD10063F7E9 /* AlkaliMetalsBanner.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F82D491A6DEAD10063F7E9 /* AlkaliMetalsBanner.png */; };
-		63F82D511A6DEAD10063F7E9 /* AlkalineEarthMetalsHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F82D4A1A6DEAD10063F7E9 /* AlkalineEarthMetalsHeader.png */; };
-		63F82D521A6DEAD10063F7E9 /* ChalcogensHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F82D4B1A6DEAD10063F7E9 /* ChalcogensHeader.png */; };
-		63F82D531A6DEAD10063F7E9 /* CoinageMetalsHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F82D4C1A6DEAD10063F7E9 /* CoinageMetalsHeader.png */; };
-		63F82D541A6DEAD10063F7E9 /* HalogensHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F82D4D1A6DEAD10063F7E9 /* HalogensHeader.png */; };
-		63F82D551A6DEAD10063F7E9 /* NobleGasesHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F82D4E1A6DEAD10063F7E9 /* NobleGasesHeader.png */; };
-		63F82D561A6DEAD10063F7E9 /* PnictogensHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F82D4F1A6DEAD10063F7E9 /* PnictogensHeader.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -175,11 +175,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63473D461AAEAB72006E08AD /* PeriodicTable.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PeriodicTable.entitlements; sourceTree = "<group>"; };
 		634A9DC61A5F8788006F41FA /* PeriodicTableWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeriodicTableWindow.h; sourceTree = "<group>"; };
 		634A9DC71A5F8788006F41FA /* PeriodicTableWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeriodicTableWindow.m; sourceTree = "<group>"; };
 		634A9DC81A5F8788006F41FA /* PeriodicTableWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PeriodicTableWindow.xib; sourceTree = "<group>"; };
 		634A9ED41A5F8C56006F41FA /* ElementButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementButton.h; sourceTree = "<group>"; };
 		634A9ED51A5F8C56006F41FA /* ElementButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementButton.m; sourceTree = "<group>"; };
+		63507F791AAE9554001E298F /* Xenon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Xenon.png; sourceTree = "<group>"; };
+		63507F7B1AAE96B9001E298F /* Chlorine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chlorine.png; sourceTree = "<group>"; };
+		63507F821AAE9CDB001E298F /* icon_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_16x16.png; sourceTree = "<group>"; };
+		63507F831AAE9CDB001E298F /* icon_16x16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_16x16@2x.png"; sourceTree = "<group>"; };
+		63507F841AAE9CDB001E298F /* icon_128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_128x128.png; sourceTree = "<group>"; };
+		63507F851AAE9CDB001E298F /* icon_128x128@2x-.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_128x128@2x-.png"; sourceTree = "<group>"; };
+		63507F861AAE9CDB001E298F /* icon_256x256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_256x256.png; sourceTree = "<group>"; };
+		63507F871AAE9CDB001E298F /* icon_256x256@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_256x256@2x.png"; sourceTree = "<group>"; };
+		63507F881AAE9CDB001E298F /* icon_32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_32x32.png; sourceTree = "<group>"; };
+		63507F891AAE9CDB001E298F /* icon_32x32@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_32x32@2x.png"; sourceTree = "<group>"; };
+		63507F8A1AAE9CDB001E298F /* icon_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_512x512.png; sourceTree = "<group>"; };
+		63507F8B1AAE9CDB001E298F /* icon_512x512@2x-.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_512x512@2x-.png"; sourceTree = "<group>"; };
 		639BDAFD1A5F84CC0043F97C /* PeriodicTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeriodicTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		639BDB011A5F84CC0043F97C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		639BDB021A5F84CC0043F97C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -219,7 +232,6 @@
 		63F82C481A6DCF560063F7E9 /* Carbon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Carbon.png; sourceTree = "<group>"; };
 		63F82C491A6DCF560063F7E9 /* Cerium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cerium.png; sourceTree = "<group>"; };
 		63F82C4A1A6DCF560063F7E9 /* Cesium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cesium.png; sourceTree = "<group>"; };
-		63F82C4B1A6DCF560063F7E9 /* Chlorine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chlorine.png; sourceTree = "<group>"; };
 		63F82C4C1A6DCF560063F7E9 /* Chromium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chromium.png; sourceTree = "<group>"; };
 		63F82C4D1A6DCF560063F7E9 /* Cobalt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cobalt.png; sourceTree = "<group>"; };
 		63F82C4E1A6DCF560063F7E9 /* Copernicium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Copernicium.png; sourceTree = "<group>"; };
@@ -322,23 +334,12 @@
 		63F82CAF1A6DCF560063F7E9 /* Ununtrium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ununtrium.png; sourceTree = "<group>"; };
 		63F82CB01A6DCF560063F7E9 /* Uranium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Uranium.png; sourceTree = "<group>"; };
 		63F82CB11A6DCF560063F7E9 /* Vanadium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vanadium.png; sourceTree = "<group>"; };
-		63F82CB21A6DCF560063F7E9 /* Xenon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Xenon.png; sourceTree = "<group>"; };
 		63F82CB31A6DCF560063F7E9 /* YellowBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YellowBG.png; sourceTree = "<group>"; };
 		63F82CB41A6DCF560063F7E9 /* Ytterbium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ytterbium.png; sourceTree = "<group>"; };
 		63F82CB51A6DCF560063F7E9 /* Yttrium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yttrium.png; sourceTree = "<group>"; };
 		63F82CB61A6DCF560063F7E9 /* Zinc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zinc.png; sourceTree = "<group>"; };
 		63F82CB71A6DCF560063F7E9 /* Zirconium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zirconium.png; sourceTree = "<group>"; };
-		63F82D3D1A6DE04A0063F7E9 /* rightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightArrow.png; sourceTree = "<group>"; };
-		63F82D3E1A6DE04A0063F7E9 /* RightArrowStraight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RightArrowStraight.png; sourceTree = "<group>"; };
-		63F82D3F1A6DE04A0063F7E9 /* TurnArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TurnArrow.png; sourceTree = "<group>"; };
 		63F82D471A6DE5FF0063F7E9 /* testHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testHeader.png; sourceTree = "<group>"; };
-		63F82D491A6DEAD10063F7E9 /* AlkaliMetalsBanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AlkaliMetalsBanner.png; sourceTree = "<group>"; };
-		63F82D4A1A6DEAD10063F7E9 /* AlkalineEarthMetalsHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AlkalineEarthMetalsHeader.png; sourceTree = "<group>"; };
-		63F82D4B1A6DEAD10063F7E9 /* ChalcogensHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChalcogensHeader.png; sourceTree = "<group>"; };
-		63F82D4C1A6DEAD10063F7E9 /* CoinageMetalsHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CoinageMetalsHeader.png; sourceTree = "<group>"; };
-		63F82D4D1A6DEAD10063F7E9 /* HalogensHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HalogensHeader.png; sourceTree = "<group>"; };
-		63F82D4E1A6DEAD10063F7E9 /* NobleGasesHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NobleGasesHeader.png; sourceTree = "<group>"; };
-		63F82D4F1A6DEAD10063F7E9 /* PnictogensHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PnictogensHeader.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -359,6 +360,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63507F811AAE9CDB001E298F /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				63507F821AAE9CDB001E298F /* icon_16x16.png */,
+				63507F831AAE9CDB001E298F /* icon_16x16@2x.png */,
+				63507F841AAE9CDB001E298F /* icon_128x128.png */,
+				63507F851AAE9CDB001E298F /* icon_128x128@2x-.png */,
+				63507F861AAE9CDB001E298F /* icon_256x256.png */,
+				63507F871AAE9CDB001E298F /* icon_256x256@2x.png */,
+				63507F881AAE9CDB001E298F /* icon_32x32.png */,
+				63507F891AAE9CDB001E298F /* icon_32x32@2x.png */,
+				63507F8A1AAE9CDB001E298F /* icon_512x512.png */,
+				63507F8B1AAE9CDB001E298F /* icon_512x512@2x-.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
 		639BDAF41A5F84CC0043F97C = {
 			isa = PBXGroup;
 			children = (
@@ -382,16 +400,7 @@
 		639BDAFF1A5F84CC0043F97C /* PeriodicTable */ = {
 			isa = PBXGroup;
 			children = (
-				63F82D491A6DEAD10063F7E9 /* AlkaliMetalsBanner.png */,
-				63F82D4A1A6DEAD10063F7E9 /* AlkalineEarthMetalsHeader.png */,
-				63F82D4B1A6DEAD10063F7E9 /* ChalcogensHeader.png */,
-				63F82D4C1A6DEAD10063F7E9 /* CoinageMetalsHeader.png */,
-				63F82D4D1A6DEAD10063F7E9 /* HalogensHeader.png */,
-				63F82D4E1A6DEAD10063F7E9 /* NobleGasesHeader.png */,
-				63F82D4F1A6DEAD10063F7E9 /* PnictogensHeader.png */,
-				63F82D3D1A6DE04A0063F7E9 /* rightArrow.png */,
-				63F82D3E1A6DE04A0063F7E9 /* RightArrowStraight.png */,
-				63F82D3F1A6DE04A0063F7E9 /* TurnArrow.png */,
+				63473D461AAEAB72006E08AD /* PeriodicTable.entitlements */,
 				63B706111A6C42F10008CF30 /* ElementData.plist */,
 				634A9DC61A5F8788006F41FA /* PeriodicTableWindow.h */,
 				634A9DC71A5F8788006F41FA /* PeriodicTableWindow.m */,
@@ -403,6 +412,7 @@
 				639BDB021A5F84CC0043F97C /* AppDelegate.h */,
 				639BDB031A5F84CC0043F97C /* AppDelegate.m */,
 				639BDB071A5F84CC0043F97C /* Images.xcassets */,
+				63507F811AAE9CDB001E298F /* icons */,
 				639BDB091A5F84CC0043F97C /* MainMenu.xib */,
 				639BDB001A5F84CC0043F97C /* Supporting Files */,
 				63B706131A6C436C0008CF30 /* Constants.h */,
@@ -440,6 +450,8 @@
 		63F82C321A6DCF560063F7E9 /* ElementImages */ = {
 			isa = PBXGroup;
 			children = (
+				63507F7B1AAE96B9001E298F /* Chlorine.png */,
+				63507F791AAE9554001E298F /* Xenon.png */,
 				63F82C331A6DCF560063F7E9 /* ActinideSeries.png */,
 				63F82C341A6DCF560063F7E9 /* ActinideSeriesBanner.png */,
 				63F82C351A6DCF560063F7E9 /* Actinium.png */,
@@ -464,7 +476,6 @@
 				63F82C481A6DCF560063F7E9 /* Carbon.png */,
 				63F82C491A6DCF560063F7E9 /* Cerium.png */,
 				63F82C4A1A6DCF560063F7E9 /* Cesium.png */,
-				63F82C4B1A6DCF560063F7E9 /* Chlorine.png */,
 				63F82C4C1A6DCF560063F7E9 /* Chromium.png */,
 				63F82C4D1A6DCF560063F7E9 /* Cobalt.png */,
 				63F82C4E1A6DCF560063F7E9 /* Copernicium.png */,
@@ -567,7 +578,6 @@
 				63F82CAF1A6DCF560063F7E9 /* Ununtrium.png */,
 				63F82CB01A6DCF560063F7E9 /* Uranium.png */,
 				63F82CB11A6DCF560063F7E9 /* Vanadium.png */,
-				63F82CB21A6DCF560063F7E9 /* Xenon.png */,
 				63F82CB31A6DCF560063F7E9 /* YellowBG.png */,
 				63F82CB41A6DCF560063F7E9 /* Ytterbium.png */,
 				63F82CB51A6DCF560063F7E9 /* Yttrium.png */,
@@ -626,6 +636,12 @@
 				TargetAttributes = {
 					639BDAFC1A5F84CC0043F97C = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 4H2M5K66E8;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					639BDB0F1A5F84CC0043F97C = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -657,14 +673,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63F82D371A6DCF560063F7E9 /* Xenon.png in Resources */,
 				63F82CDE1A6DCF560063F7E9 /* Fluorine.png in Resources */,
 				63F82CD91A6DCF560063F7E9 /* Einsteinium.png in Resources */,
+				63507F941AAE9CDB001E298F /* icon_512x512.png in Resources */,
 				63F82D0C1A6DCF560063F7E9 /* Phosphorus.png in Resources */,
 				63F82CD31A6DCF560063F7E9 /* Copernicium.png in Resources */,
 				63F82CFA1A6DCF560063F7E9 /* Manganese.png in Resources */,
 				63F82CF51A6DCF560063F7E9 /* Lead.png in Resources */,
 				63F82D3B1A6DCF560063F7E9 /* Zinc.png in Resources */,
+				63507F921AAE9CDB001E298F /* icon_32x32.png in Resources */,
 				63F82D3A1A6DCF560063F7E9 /* Yttrium.png in Resources */,
 				63F82D051A6DCF560063F7E9 /* Nitrogen.png in Resources */,
 				63F82CC91A6DCF560063F7E9 /* Bromine.png in Resources */,
@@ -674,7 +691,6 @@
 				63F82D0B1A6DCF560063F7E9 /* Palladium.png in Resources */,
 				63F82D241A6DCF560063F7E9 /* Strontium.png in Resources */,
 				63F82D321A6DCF560063F7E9 /* Ununpentium.png in Resources */,
-				63F82D411A6DE04A0063F7E9 /* RightArrowStraight.png in Resources */,
 				63F82D1E1A6DCF560063F7E9 /* Scandium.png in Resources */,
 				63F82D361A6DCF560063F7E9 /* Vanadium.png in Resources */,
 				63F82CE71A6DCF560063F7E9 /* Helium.png in Resources */,
@@ -683,12 +699,13 @@
 				63F82CC71A6DCF560063F7E9 /* Bohrium.png in Resources */,
 				63F82CF41A6DCF560063F7E9 /* Lawrencium.png in Resources */,
 				63F82CE91A6DCF560063F7E9 /* Hydrogen.png in Resources */,
-				63F82D561A6DEAD10063F7E9 /* PnictogensHeader.png in Resources */,
 				63F82D391A6DCF560063F7E9 /* Ytterbium.png in Resources */,
 				63F82CDB1A6DCF560063F7E9 /* Europium.png in Resources */,
 				63F82D261A6DCF560063F7E9 /* Tantalum.png in Resources */,
 				639BDB081A5F84CC0043F97C /* Images.xcassets in Resources */,
+				63507F951AAE9CDB001E298F /* icon_512x512@2x-.png in Resources */,
 				63F82D271A6DCF560063F7E9 /* Technetium.png in Resources */,
+				63507F8E1AAE9CDB001E298F /* icon_128x128.png in Resources */,
 				63F82CCC1A6DCF560063F7E9 /* Californium.png in Resources */,
 				63F82CED1A6DCF560063F7E9 /* Iodine.png in Resources */,
 				63F82D2C1A6DCF560063F7E9 /* Thulium.png in Resources */,
@@ -703,8 +720,8 @@
 				63F82CD71A6DCF560063F7E9 /* Dubnium.png in Resources */,
 				63F82CFE1A6DCF560063F7E9 /* MetalloidsBanner.png in Resources */,
 				63F82D1D1A6DCF560063F7E9 /* Samarium.png in Resources */,
-				63F82D551A6DEAD10063F7E9 /* NobleGasesHeader.png in Resources */,
 				63F82CFD1A6DCF560063F7E9 /* Mercury.png in Resources */,
+				63507F911AAE9CDB001E298F /* icon_256x256@2x.png in Resources */,
 				63F82D221A6DCF560063F7E9 /* Silver.png in Resources */,
 				63F82D2F1A6DCF560063F7E9 /* TransitionMetalsBanner.png in Resources */,
 				63F82CBF1A6DCF560063F7E9 /* Antimony.png in Resources */,
@@ -714,30 +731,29 @@
 				63F82CC81A6DCF560063F7E9 /* Boron.png in Resources */,
 				63F82D331A6DCF560063F7E9 /* Ununseptium.png in Resources */,
 				63F82D151A6DCF560063F7E9 /* Radium.png in Resources */,
+				63507F8C1AAE9CDB001E298F /* icon_16x16.png in Resources */,
 				63F82D301A6DCF560063F7E9 /* Tungsten.png in Resources */,
 				63F82D111A6DCF560063F7E9 /* Potassium.png in Resources */,
-				63F82D501A6DEAD10063F7E9 /* AlkaliMetalsBanner.png in Resources */,
 				63F82CE51A6DCF560063F7E9 /* HalogensBanner.png in Resources */,
 				63F82CCD1A6DCF560063F7E9 /* Carbon.png in Resources */,
-				63F82D531A6DEAD10063F7E9 /* CoinageMetalsHeader.png in Resources */,
-				63F82CD01A6DCF560063F7E9 /* Chlorine.png in Resources */,
 				63F82D231A6DCF560063F7E9 /* Sodium.png in Resources */,
 				63F82D011A6DCF560063F7E9 /* Neon.png in Resources */,
 				63F82CEE1A6DCF560063F7E9 /* Iridium.png in Resources */,
 				63F82D131A6DCF560063F7E9 /* Promethium.png in Resources */,
 				63F82CEF1A6DCF560063F7E9 /* Iron.png in Resources */,
+				63507F7C1AAE96B9001E298F /* Chlorine.png in Resources */,
 				63F82CFB1A6DCF560063F7E9 /* Meitnerium.png in Resources */,
 				63F82D101A6DCF560063F7E9 /* PostTransitionMetalsBanner.png in Resources */,
 				63F82D1B1A6DCF560063F7E9 /* Ruthenium.png in Resources */,
 				63B706121A6C42F10008CF30 /* ElementData.plist in Resources */,
 				63F82D2D1A6DCF560063F7E9 /* Tin.png in Resources */,
+				63507F901AAE9CDB001E298F /* icon_256x256.png in Resources */,
 				63F82CF91A6DCF560063F7E9 /* Magnesium.png in Resources */,
 				63F82CD41A6DCF560063F7E9 /* Copper.png in Resources */,
 				63F82CBE1A6DCF560063F7E9 /* Americium.png in Resources */,
 				63F82D341A6DCF560063F7E9 /* Ununtrium.png in Resources */,
 				63F82D061A6DCF560063F7E9 /* Nobelium.png in Resources */,
 				63F82CC01A6DCF560063F7E9 /* Argon.png in Resources */,
-				63F82D421A6DE04A0063F7E9 /* TurnArrow.png in Resources */,
 				63F82D201A6DCF560063F7E9 /* Selenium.png in Resources */,
 				63F82CBB1A6DCF560063F7E9 /* AlkaliMetalsBanner.png in Resources */,
 				63F82D1F1A6DCF560063F7E9 /* Seaborgium.png in Resources */,
@@ -745,16 +761,17 @@
 				63F82CF71A6DCF560063F7E9 /* Livermorium.png in Resources */,
 				63F82D121A6DCF560063F7E9 /* Praseodymium.png in Resources */,
 				63F82D171A6DCF560063F7E9 /* Rhenium.png in Resources */,
-				63F82D401A6DE04A0063F7E9 /* rightArrow.png in Resources */,
-				63F82D511A6DEAD10063F7E9 /* AlkalineEarthMetalsHeader.png in Resources */,
+				63507F8D1AAE9CDB001E298F /* icon_16x16@2x.png in Resources */,
 				63F82D0A1A6DCF560063F7E9 /* Oxygen.png in Resources */,
 				63F82D2A1A6DCF560063F7E9 /* Thallium.png in Resources */,
 				63F82CEB1A6DCF560063F7E9 /* HydrogenLarge.png in Resources */,
+				63507F7A1AAE9554001E298F /* Xenon.png in Resources */,
 				63F82CC51A6DCF560063F7E9 /* Beryllium.png in Resources */,
 				63F82D001A6DCF560063F7E9 /* Neodymium.png in Resources */,
 				634A9DCA1A5F8788006F41FA /* PeriodicTableWindow.xib in Resources */,
 				63F82CBA1A6DCF560063F7E9 /* Actinium.png in Resources */,
 				63F82D251A6DCF560063F7E9 /* Sulfur.png in Resources */,
+				63507F931AAE9CDB001E298F /* icon_32x32@2x.png in Resources */,
 				63F82CDC1A6DCF560063F7E9 /* Fermium.png in Resources */,
 				63F82CF31A6DCF560063F7E9 /* Lanthanum.png in Resources */,
 				63F82CD81A6DCF560063F7E9 /* Dysprosium.png in Resources */,
@@ -779,20 +796,19 @@
 				63F82D181A6DCF560063F7E9 /* Rhodium.png in Resources */,
 				63F82CE41A6DCF560063F7E9 /* Hafnium.png in Resources */,
 				63F82CCF1A6DCF560063F7E9 /* Cesium.png in Resources */,
-				63F82D521A6DEAD10063F7E9 /* ChalcogensHeader.png in Resources */,
 				63F82CEA1A6DCF560063F7E9 /* HydrogenClear.png in Resources */,
 				63F82CE81A6DCF560063F7E9 /* Holmium.png in Resources */,
 				63F82D281A6DCF560063F7E9 /* Tellurium.png in Resources */,
 				63F82CF01A6DCF560063F7E9 /* Krypton.png in Resources */,
 				63F82CD21A6DCF560063F7E9 /* Cobalt.png in Resources */,
 				63F82D141A6DCF560063F7E9 /* Protactinium.png in Resources */,
+				63507F8F1AAE9CDB001E298F /* icon_128x128@2x-.png in Resources */,
 				63F82D041A6DCF560063F7E9 /* Niobium.png in Resources */,
 				63F82CC31A6DCF560063F7E9 /* Barium.png in Resources */,
 				63F82D1C1A6DCF560063F7E9 /* Rutherfordium.png in Resources */,
 				639BDB0B1A5F84CC0043F97C /* MainMenu.xib in Resources */,
 				63F82D311A6DCF560063F7E9 /* Ununoctium.png in Resources */,
 				63F82D0D1A6DCF560063F7E9 /* Platinum.png in Resources */,
-				63F82D541A6DEAD10063F7E9 /* HalogensHeader.png in Resources */,
 				63F82D2B1A6DCF560063F7E9 /* Thorium.png in Resources */,
 				63F82CE21A6DCF560063F7E9 /* Germanium.png in Resources */,
 				63F82CF21A6DCF560063F7E9 /* LanthanideSeriesBanner.png in Resources */,
@@ -941,10 +957,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PeriodicTable/PeriodicTable.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				INFOPLIST_FILE = PeriodicTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PeriodicTable;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -952,10 +973,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PeriodicTable/PeriodicTable.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = PeriodicTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PeriodicTable;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -974,7 +999,7 @@
 				);
 				INFOPLIST_FILE = PeriodicTableTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PeriodicTableTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeriodicTable.app/Contents/MacOS/PeriodicTable";
 			};
 			name = Debug;
@@ -990,7 +1015,7 @@
 				);
 				INFOPLIST_FILE = PeriodicTableTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PeriodicTableTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeriodicTable.app/Contents/MacOS/PeriodicTable";
 			};
 			name = Release;
